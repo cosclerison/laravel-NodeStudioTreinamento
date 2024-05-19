@@ -219,8 +219,8 @@ Lista de Aulas
 # 35 - Customizando views de erro
     www.youtube.com/watch?v=TvGGsumEEI0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=35
 
-# 36 - 
-
+# 36 - Estruturas de controle
+    www.youtube.com/watch?v=TeMkk1HZBhc&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=36
 
 
 

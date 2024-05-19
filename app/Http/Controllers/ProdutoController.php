@@ -16,7 +16,7 @@ class ProdutoController extends Controller
         // $produtos = Product::all();
         // return $produtos;
 
-        $name = 'Clerison';
+        $name = '';
         $age  = 40;
         $html = "<h1> Olá somos a PumaSync </h1>";
 
