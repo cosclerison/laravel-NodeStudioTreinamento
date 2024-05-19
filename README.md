@@ -210,7 +210,8 @@ Lista de Aulas
 # 32 - Section, Yield e Extends
     www.youtube.com/watch?v=HPvD7pNc_RM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=32
 
-
+# 33 - Laravel Snippers
+    www.youtube.com/watch?v=Pc2FqBiVmvI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=33
 
 
 
