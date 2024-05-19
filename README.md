@@ -198,9 +198,8 @@ Lista de Aulas
     OU
     $ php artisan make:teste -mfscr
 
-
-
-# 29 - 
+# 29 - Factory Produtos e StrSlug
+    www.youtube.com/watch?v=GOX4uRiR5Fw&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=29
 
 
 
