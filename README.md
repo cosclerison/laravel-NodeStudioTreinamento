@@ -188,8 +188,19 @@ Lista de Aulas
     <!-- Criando Factory para automatizar a criação de categorias -->
     $ php artisan make:factory CategoryFactory
 
+# 28 - mfscr
+    www.youtube.com/watch?v=JYVrE38WBCE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=28
 
-# 28 - 
+    <!-- Utilizando metodos simplificados de criar as estruturas -->
+    $ php artisan make:teste --migration --factory --seed --controller --resource
+    OU
+    $ php artisan make:teste -m -f -s -cr
+    OU
+    $ php artisan make:teste -mfscr
+
+
+
+# 29 - 
 
 
 
