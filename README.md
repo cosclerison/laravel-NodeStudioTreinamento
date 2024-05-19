@@ -2,22 +2,22 @@
 
 # Canal Node Studio Treinamento
 Lista de Aulas
-01 - Curso de Laravel - #01 Introdução e Ambiente PHP
+01 - Introdução e Ambiente PHP
     https://www.youtube.com/watch?v=SnOlhaJTMTA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=1&pp=iAQB
 
-02 - Curso de Laravel - #02 Sobre o Laragon
+02 - Sobre o Laragon
     https://www.youtube.com/watch?v=iHlbDtHDAYM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=2
 
-03 - Curso de Laravel - #03 Instalando o PHP8 no Laragon
+03 - Instalando o PHP8 no Laragon
     https://www.youtube.com/watch?v=XbgzvUL14mY&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=3
 
-04 - Curso de Laravel - #04 Instalação, Composer e Virtual Host (Laragon)
+04 - Instalação, Composer e Virtual Host (Laragon)
     https://www.youtube.com/watch?v=HFnn0DXQgWA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=4
 
-05 - Curso de Laravel - #05 Estrutura de Pastas
+05 - Estrutura de Pastas
     https://www.youtube.com/watch?v=QU9ygaoz5jQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=5
 
-06 - Curso de Laravel - #06 PHP Artisan
+06 - PHP Artisan
     https://www.youtube.com/watch?v=3HKsp5cjqus&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=6
 
     Iniciando servidor usando artisan
@@ -26,15 +26,15 @@ Lista de Aulas
     Mudando porta do servidor
     $ php artisan serve --port=8001
 
-07 - Curso de Laravel - #07 MVC
+07 - MVC
     https://www.youtube.com/watch?v=7aObw53oKls&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=7
 
     MODEL - VIEW - CONTROLLER
 
-08 - Curso de Laravel - #08 Introdução as Rotas
+08 - Introdução as Rotas
     https://www.youtube.com/watch?v=RPUmwrlxUw0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=8
 
-09 - Curso de Laravel - #09 Rotas Any e Match
+09 - Rotas Any e Match
     https://www.youtube.com/watch?v=A9UE58vxqNg&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=9
 
     Route::get('/company', function() {
@@ -52,17 +52,22 @@ Lista de Aulas
         return "Permite apenas acessos definidos";
     });
 
-10 - Curso de Laravel - #10 Passagem de Parâmetros
+10 - Passagem de Parâmetros
     https://www.youtube.com/watch?v=-AzmobPrYpo&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=10
 
-11 - Curso de Laravel - #11 Redirect e View
+11 - Redirect e View
     https://www.youtube.com/watch?v=BMjsvHfz-ZE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=11
 
-
-
-12 - Curso de Laravel - #12 Rotas nomeadas
+12 - Rotas nomeadas
     https://www.youtube.com/watch?v=BrMn-BNL-u0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=12
 
+13 - Grupo de Rotas
+    https://www.youtube.com/watch?v=5ULouVtZ9GI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=13
+
+14 - Controllers
+    https://www.youtube.com/watch?v=Co2CL6WKosI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=14
+
+15 - 
 
 
 

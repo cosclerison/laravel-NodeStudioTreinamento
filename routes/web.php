@@ -66,3 +66,60 @@ Route::get('/news', function() {
 Route::get('/novidades', function(){
     return redirect()->route('noticias');
 });
+
+/**
+ * Utilizando o metodo prefix ele esta inserindo nas rotas o "admin"
+ * assim as rotas dentro do mesmo acaba recebendo o seu valor
+ * exemplo: 'dashboard' é inserido na rota como 'admin/dashboard'
+ */
+Route::prefix("admin")->group(function(){
+    Route::get('dashboard', function() {
+        return "strador";
+    });
+    
+    Route::get('user', function() {
+        return "Usuários";
+    });
+    
+    Route::get('client', function() {
+        return "Clientes";
+    });
+});
+
+
+// Primeiro modo de fazer o metodo name e prefix com o group
+Route::name("category.")->prefix('category')->group(function(){
+
+    Route::get('car', function() {
+        return "Carros";
+    })->name('car');
+    
+    Route::get('motorcycle', function() {
+        return "Motos";
+    })->name('motorcycle');
+    
+    Route::get('truck', function() {
+        return "Caminhões";
+    })->name('truck');
+
+});
+
+// Segundo modo de fazer o metodo name e prefix com o group
+Route::group([
+    'prefix'    => 'setor', // Declarar o prefixo
+    'as'        => 'setor'  // Declara o name da rota
+], function() {
+
+    Route::get('car', function() {
+        return "Carros";
+    })->name('car');
+    
+    Route::get('motorcycle', function() {
+        return "Motos";
+    })->name('motorcycle');
+    
+    Route::get('truck', function() {
+        return "Caminhões";
+    })->name('truck');
+    
+});
