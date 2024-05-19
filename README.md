@@ -207,8 +207,8 @@ Lista de Aulas
 # 31 - Introdução as views
     www.youtube.com/watch?v=jf8WnaIQHcA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=31
 
-# 32 - 
-
+# 32 - Section, Yield e Extends
+    www.youtube.com/watch?v=HPvD7pNc_RM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=32
 
 
 

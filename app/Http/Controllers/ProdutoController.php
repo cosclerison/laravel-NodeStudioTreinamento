@@ -29,7 +29,8 @@ class ProdutoController extends Controller
         // ]);
 
         // Segundo modo de declarar as variaveis
-        return view('news.news', compact('name', 'age', 'html'));
+        // return view('news.news', compact('name', 'age', 'html'));
+        return view('site.home', compact('name', 'age', 'html'));
 
     }
 
