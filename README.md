@@ -222,6 +222,11 @@ Lista de Aulas
 # 36 - Estruturas de controle
     www.youtube.com/watch?v=TeMkk1HZBhc&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=36
 
+# 37 - Estruturas de repetição
+    www.youtube.com/watch?v=PP7sLx8yxK0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=37
+
+# 38 - 
+
 
 
 

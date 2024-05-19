@@ -13,8 +13,8 @@
 
     {{-- Definindo um valor padrão --}}
     {{-- {{ $teste ?? 'Valor Definido' }} --}}
-
-    {{-- Estrutura de controle --}}
+    
+                                            {{-- ### Estrutura de controle ### --}}
 
     {{-- if else --}}
     {{-- @if($name == 'Clerison')
@@ -61,5 +61,38 @@
     {{-- @guest
         Usuário visitante, sem acesso administrativo.
     @endguest --}}
+
+                                            {{-- ### Estrutura de repetição ### --}}
+    {{-- for --}}
+    {{-- @for($i = 0; $i <= 10; $i++)
+        valor atual com "for" é {{ $i }} <br>
+        @endfor --}}
+        
+        
+    {{-- while --}}
+    {{-- @php
+        $i = 0
+    @endphp
+
+    @while ($i <= 5)
+        Valor atual com "while" é {{ $i }} <br>
+        @php
+            $i++
+        @endphp
+    @endwhile --}}
+    
+    {{-- foreach --}}
+    {{-- @foreach ($frutas as $fruta)
+        Fruta: {{$fruta}} <br>
+    @endforeach --}}
+
+    {{-- forelse --}}
+    @forelse ($frutas as $fruta)
+        Fruta: {{$fruta}} <br>
+    @empty
+        Fruta: "Sem Registro"
+    @endforelse
+
+
 
 @endsection

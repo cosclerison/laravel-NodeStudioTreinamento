@@ -16,9 +16,18 @@ class ProdutoController extends Controller
         // $produtos = Product::all();
         // return $produtos;
 
-        $name = '';
+        $name = 'Clerison';
         $age  = 40;
         $html = "<h1> Olá somos a PumaSync </h1>";
+        $frutas = [
+            'Maçã',
+            'Laranja',
+            'Uva',
+            'Pera',
+            'Abacaxi',
+            'Cáqui',
+            'Limão',
+        ];
 
         // Primeiro modo de declarar as variaveis
         // return view('news.news', 
@@ -30,7 +39,7 @@ class ProdutoController extends Controller
 
         // Segundo modo de declarar as variaveis
         // return view('news.news', compact('name', 'age', 'html'));
-        return view('site.home', compact('name', 'age', 'html'));
+        return view('site.home', compact('name', 'age', 'html', 'frutas'));
 
     }
 
