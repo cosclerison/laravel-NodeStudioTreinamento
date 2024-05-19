@@ -228,6 +228,11 @@ Lista de Aulas
 # 38 - Include e Component
     www.youtube.com/watch?v=Gjvcun2Zbfg&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=38
 
+# 39 - Stacks e Push
+    www.youtube.com/watch?v=F1AoWqjksrQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=39
+
+# 40 - 
+
 
 
 
