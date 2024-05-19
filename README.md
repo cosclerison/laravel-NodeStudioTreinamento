@@ -111,7 +111,21 @@ Lista de Aulas
 20 - Criando os Migrations
     https://www.youtube.com/watch?v=sfuqKTtCNN8&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=20
 
+    <!-- script para criar uma migrations -->
+    <!-- Cria coluna produtos na tabela -->
+    $ php artisan make:migration create_produtos_table
+    $ php artisan make:migration products --create="nome da tabela"
 
+21 - Editando e Excluindo tabelas
+    https://www.youtube.com/watch?v=lAfg1zNDMQA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=21
+
+    <!-- alterar nome de uma tabela -->
+    Schema::rename('produtos', 'produto');
+
+    <!-- Excluir uma Tabela -->
+    Schema::dropIfExists('produtos');
+    
+22 - 
 
 
 
