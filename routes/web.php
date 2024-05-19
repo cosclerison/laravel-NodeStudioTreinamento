@@ -43,3 +43,13 @@ Route::match(['put', 'delete'], '/match', function() {
 Route::get('/produto/{id}/{category?}', function($id, $category = '') {
     return "O id do produto é:" . $id . "<br>" . " e a categoria é " . $category;
 });
+
+Route::get('/sobre', function() {
+   return redirect('/company') ;
+});
+
+// metodo simplificado de fazer o redirect
+Route::redirect('/contato', '/empresa');
+
+// metodo simplificado de fazer rota da view
+Route::view('/perfil', 'site/perfil');

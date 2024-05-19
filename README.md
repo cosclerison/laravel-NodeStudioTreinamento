@@ -60,7 +60,10 @@ Lista de Aulas
 10 - Curso de Laravel - #10 Passagem de Parâmetros
     https://www.youtube.com/watch?v=-AzmobPrYpo&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=10
 
+11 - Curso de Laravel - #11 Redirect e View
+    https://www.youtube.com/watch?v=BMjsvHfz-ZE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=11
 
+12 - 
 
 
 
