@@ -126,5 +126,6 @@ Route::group([
 });
 
 // CONTROLLERS
+Route::get('/produto', [ProdutoController::class, 'index'])->name('produto.index');
 
-Route::get('/produto', [ProdutoController::class, 'index']);
+Route::get('/produto/{id?}', [ProdutoController::class, 'show'])->name('produto.show');

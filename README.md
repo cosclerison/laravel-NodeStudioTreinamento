@@ -67,10 +67,16 @@ Lista de Aulas
 14 - Controllers
     https://www.youtube.com/watch?v=Co2CL6WKosI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=14
 
-    $ php artisan make::controller ProdutoController
+    $ php artisan make:controller ProdutoController
 
-15 - 
+15 - Passando Parâmetros Para o Controller
+    https://www.youtube.com/watch?v=_90A8o-vV34&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=15
 
+
+16 - Resource
+    https://www.youtube.com/watch?v=_90A8o-vV34&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=16
+
+    $ php artisan make:controller ProdutoController --resource
 
 
 
