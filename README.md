@@ -78,6 +78,9 @@ Lista de Aulas
 
     $ php artisan make:controller ProdutoController --resource
 
+    <!-- Mostra uma lista com todas rotas -->
+    $ php artisan route:list
+
 
 
 
