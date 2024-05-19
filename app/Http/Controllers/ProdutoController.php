@@ -13,11 +13,24 @@ class ProdutoController extends Controller
         
         // return "<h1>Index</h1>";
 
-        $produtos = Product::all();
+        // $produtos = Product::all();
+        // return $produtos;
 
-        // dd($produtos);
+        $name = 'Clerison';
+        $age  = 40;
+        $html = "<h1> Olá somos a PumaSync </h1>";
 
-        return $produtos;
+        // Primeiro modo de declarar as variaveis
+        // return view('news.news', 
+        // [
+        //     'name'  => $name,
+        //     'idade' => $age,
+        //     'html'  => $html,
+        // ]);
+
+        // Segundo modo de declarar as variaveis
+        return view('news.news', compact('name', 'age', 'html'));
+
     }
 
     public function show($id = 0) {

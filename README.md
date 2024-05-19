@@ -204,8 +204,10 @@ Lista de Aulas
 # 30 - Relacionamentos
     www.youtube.com/watch?v=BHZUtimDGVs&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=30
 
+# 31 - Introdução as views
+    www.youtube.com/watch?v=jf8WnaIQHcA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=31
 
-
+# 32 - 
 
 
 
