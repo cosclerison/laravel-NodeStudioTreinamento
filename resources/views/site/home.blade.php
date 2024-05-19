@@ -87,11 +87,45 @@
     @endforeach --}}
 
     {{-- forelse --}}
-    @forelse ($frutas as $fruta)
+    {{-- @forelse ($frutas as $fruta)
         Fruta: {{$fruta}} <br>
     @empty
         Fruta: "Sem Registro"
-    @endforelse
+    @endforelse --}}
+
+                                            {{-- ### Include ### --}}
+
+    {{-- include, nesta comunicação estamos enviando o valor de titulo para a view message.blade.php
+    e apresentando em tela o seu retorno onde é inserido abaixo --}}
+    {{-- @include('includes.message', ['titulo' => 'Mensagem de sucesso!']) --}}
+
+
+                                            {{-- ### Component ### --}}
+
+    {{-- Component --}}
+    @component('components.sidebar')
+        @slot('paragraph')
+            Texto declarado dentro de slot na view home.blade.php
+        @endslot
+    @endcomponent
+
+
+
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
 
 
 

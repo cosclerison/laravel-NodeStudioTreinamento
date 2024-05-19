@@ -225,7 +225,8 @@ Lista de Aulas
 # 37 - Estruturas de repetição
     www.youtube.com/watch?v=PP7sLx8yxK0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=37
 
-# 38 - 
+# 38 - Include e Component
+    www.youtube.com/watch?v=Gjvcun2Zbfg&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=38
 
 
 
