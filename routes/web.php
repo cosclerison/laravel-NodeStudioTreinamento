@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ProdutoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -40,7 +41,7 @@ Route::match(['put', 'delete'], '/match', function() {
  *
  * @return  [type]             [return description]
  */
-Route::get('/produto/{id}/{category?}', function($id, $category = '') {
+Route::get('/product/{id}/{category?}', function($id, $category = '') {
     return "O id do produto é:" . $id . "<br>" . " e a categoria é " . $category;
 });
 
@@ -123,3 +124,7 @@ Route::group([
     })->name('truck');
     
 });
+
+// CONTROLLERS
+
+Route::get('/produto', [ProdutoController::class, 'index']);

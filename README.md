@@ -67,6 +67,8 @@ Lista de Aulas
 14 - Controllers
     https://www.youtube.com/watch?v=Co2CL6WKosI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=14
 
+    $ php artisan make::controller ProdutoController
+
 15 - 
 
 
