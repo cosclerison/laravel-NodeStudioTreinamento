@@ -155,7 +155,32 @@ Lista de Aulas
 
     <OBS> ORM = Object Relacional Model
 
-# 25 - 
+    Exemplo: $produtos = Product::all();
+
+# 25 - Criando tabelas Users, Categorias e Produtos
+    www.youtube.com/watch?v=s4x6GEqa3ZQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=25
+
+    <!-- Criando model and migration -->
+    $ php artisan make:model category --migration
+
+    <!-- Criando model and migration  com controller e opção resource -->
+    php artisan make:model Category --migration --controller --resource
+
+    <!-- Criando model and migration  com controller e opção resource simplificado-->
+    php artisan make:model Category -m -cr
+    OU
+    php artisan make:model Category -mcr
+
+# 26 - 
+
+
+
+
+
+
+
+
+
 
 
 
