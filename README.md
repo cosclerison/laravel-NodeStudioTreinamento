@@ -201,6 +201,9 @@ Lista de Aulas
 # 29 - Factory Produtos e StrSlug
     www.youtube.com/watch?v=GOX4uRiR5Fw&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=29
 
+# 30 - Relacionamentos
+    www.youtube.com/watch?v=BHZUtimDGVs&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=30
+
 
 
 
