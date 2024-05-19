@@ -179,7 +179,17 @@ Lista de Aulas
     <!-- Criando Seeder para agilizar no processo de popular a tabela do banco de dados -->
     $ php artisan make:seeder  UsersSeeder
 
-# 27 - 
+    <!-- Para executar o seeder -->
+    $ php artisan db:seed
+
+# 27 - Factory
+    www.youtube.com/watch?v=X3JsQ8jL1Ko&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=27
+
+    <!-- Criando Factory para automatizar a criação de categorias -->
+    $ php artisan make:factory CategoryFactory
+
+
+# 28 - 
 
 
 
