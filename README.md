@@ -1,23 +1,25 @@
 ## Curso de PHP Framework Laravel
 
 # Canal Node Studio Treinamento
+
 Lista de Aulas
-01 - Introdução e Ambiente PHP
+
+# 01 - Introdução e Ambiente PHP
     https://www.youtube.com/watch?v=SnOlhaJTMTA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=1&pp=iAQB
 
-02 - Sobre o Laragon
+# 02 - Sobre o Laragon
     https://www.youtube.com/watch?v=iHlbDtHDAYM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=2
 
-03 - Instalando o PHP8 no Laragon
+# 03 - Instalando o PHP8 no Laragon
     https://www.youtube.com/watch?v=XbgzvUL14mY&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=3
 
-04 - Instalação, Composer e Virtual Host (Laragon)
+# 04 - Instalação, Composer e Virtual Host (Laragon)
     https://www.youtube.com/watch?v=HFnn0DXQgWA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=4
 
-05 - Estrutura de Pastas
+# 05 - Estrutura de Pastas
     https://www.youtube.com/watch?v=QU9ygaoz5jQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=5
 
-06 - PHP Artisan
+# 06 - PHP Artisan
     https://www.youtube.com/watch?v=3HKsp5cjqus&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=6
 
     Iniciando servidor usando artisan
@@ -26,15 +28,15 @@ Lista de Aulas
     Mudando porta do servidor
     $ php artisan serve --port=8001
 
-07 - MVC
+# 07 - MVC
     https://www.youtube.com/watch?v=7aObw53oKls&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=7
 
     MODEL - VIEW - CONTROLLER
 
-08 - Introdução as Rotas
+# 08 - Introdução as Rotas
     https://www.youtube.com/watch?v=RPUmwrlxUw0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=8
 
-09 - Rotas Any e Match
+# 09 - Rotas Any e Match
     https://www.youtube.com/watch?v=A9UE58vxqNg&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=9
 
     Route::get('/company', function() {
@@ -52,28 +54,28 @@ Lista de Aulas
         return "Permite apenas acessos definidos";
     });
 
-10 - Passagem de Parâmetros
+# 10 - Passagem de Parâmetros
     https://www.youtube.com/watch?v=-AzmobPrYpo&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=10
 
-11 - Redirect e View
+# 11 - Redirect e View
     https://www.youtube.com/watch?v=BMjsvHfz-ZE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=11
 
-12 - Rotas nomeadas
+# 12 - Rotas nomeadas
     https://www.youtube.com/watch?v=BrMn-BNL-u0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=12
 
-13 - Grupo de Rotas
+# 13 - Grupo de Rotas
     https://www.youtube.com/watch?v=5ULouVtZ9GI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=13
 
-14 - Controllers
+# 14 - Controllers
     https://www.youtube.com/watch?v=Co2CL6WKosI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=14
 
     $ php artisan make:controller ProdutoController
 
-15 - Passando Parâmetros Para o Controller
+# 15 - Passando Parâmetros Para o Controller
     https://www.youtube.com/watch?v=_90A8o-vV34&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=15
 
 
-16 - Resource
+# 16 - Resource
     https://www.youtube.com/watch?v=_90A8o-vV34&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=16
 
     $ php artisan make:controller ProdutoController --resource
@@ -81,7 +83,7 @@ Lista de Aulas
     <!-- Mostra uma lista com todas rotas -->
     $ php artisan route:list
 
-17 - Route list, cache e clear
+# 17 - Route list, cache e clear
     https://www.youtube.com/watch?v=O7P8CFDrguU&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=17
 
     <!-- Mostra uma lista com todas rotas -->
@@ -93,10 +95,10 @@ Lista de Aulas
     <!-- Mostra uma lista com todas rotas -->
     $ php artisan route:clear
 
-18 - Configurando o Banco de Dados
+# 18 - Configurando o Banco de Dados
     https://www.youtube.com/watch?v=Re1dE15t9to&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=18
 
-19 - Entendendo os Migrations
+# 19 - Entendendo os Migrations
     https://www.youtube.com/watch?v=c5II4tbKhYE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=19
 
     <!-- Executa os migrates que existem na pasta de migraations -->
@@ -108,7 +110,7 @@ Lista de Aulas
     <!-- Mostra o status das migrations -->
     $ php artisan migrate:status
 
-20 - Criando os Migrations
+# 20 - Criando os Migrations
     https://www.youtube.com/watch?v=sfuqKTtCNN8&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=20
 
     <!-- script para criar uma migrations -->
@@ -116,7 +118,7 @@ Lista de Aulas
     $ php artisan make:migration create_produtos_table
     $ php artisan make:migration products --create="nome da tabela"
 
-21 - Editando e Excluindo tabelas
+# 21 - Editando e Excluindo tabelas
     https://www.youtube.com/watch?v=lAfg1zNDMQA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=21
 
     <!-- alterar nome de uma tabela -->
@@ -124,8 +126,24 @@ Lista de Aulas
 
     <!-- Excluir uma Tabela -->
     Schema::dropIfExists('produtos');
+
+# 22 - Reset, Refresh e Fresh
+    https://www.youtube.com/watch?v=p5qPFe93dIQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=22
+
+    <!-- Executando o reset ele apaga todas migrations do banco de dados -->
+    < OBS > nunca faça isso em produção á não ser que saiba exatamente o que esta fazendo
+    $ php artisan migrate:reset
+
+    <!-- Executa o Reset e faz o Refresh de todas migrations do banco de dados -->
+    $ php artisan migrate:refresh
     
-22 - 
+    <!-- Executa o fresh ele é o mais hard core exclui todas tabelas e executa o reset -->
+    $ php artisan migrate:fresh
+
+
+
+
+# 23 - 
 
 
 
@@ -136,8 +154,139 @@ Lista de Aulas
 
 
 
+## Lista todos comandos artisan
+$ php artisan
+Laravel Framework 8.83.27
 
+Usage:
+  command [options] [arguments]
 
+Options:
+  -h, --help            Display help for the given command. When no command is given display help for the list command
+  -q, --quiet           Do not output any message
+  -V, --version         Display this application version
+      --ansi|--no-ansi  Force (or disable --no-ansi) ANSI output
+  -n, --no-interaction  Do not ask any interactive question
+      --env[=ENV]       The environment the command should run under
+  -v|vv|vvv, --verbose  Increase the verbosity of messages: 1 for normal output, 2 for more verbose output and 3 for debug
+
+Available commands:
+  clear-compiled         Remove the compiled class file
+  completion             Dump the shell completion script
+  db                     Start a new database CLI session
+  down                   Put the application into maintenance / demo mode
+  env                    Display the current framework environment
+  help                   Display help for a command
+  inspire                Display an inspiring quote
+  list                   List commands
+  migrate                Run the database migrations
+  optimize               Cache the framework bootstrap files
+  serve                  Serve the application on the PHP development server
+  test                   Run the application tests
+  tinker                 Interact with your application
+  up                     Bring the application out of maintenance mode
+ auth
+  auth:clear-resets      Flush expired password reset tokens
+ cache
+  cache:clear            Flush the application cache
+  cache:forget           Remove an item from the cache
+  cache:table            Create a migration for the cache database table
+ config
+  config:cache           Create a cache file for faster configuration loading
+  config:clear           Remove the configuration cache file
+ db
+  db:seed                Seed the database with records
+  db:wipe                Drop all tables, views, and types
+ event
+  event:cache            Discover and cache the application's events and listeners
+  event:clear            Clear all cached events and listeners
+  event:generate         Generate the missing events and listeners based on registration
+  event:list             List the application's events and listeners
+ key
+  key:generate           Set the application key
+ make
+  make:cast              Create a new custom Eloquent cast class
+  make:channel           Create a new channel class
+  make:command           Create a new Artisan command
+  make:component         Create a new view component class
+  make:controller        Create a new controller class
+  make:event             Create a new event class
+  make:exception         Create a new custom exception class
+  make:factory           Create a new model factory
+  make:job               Create a new job class
+  make:listener          Create a new event listener class
+  make:mail              Create a new email class
+  make:middleware        Create a new middleware class
+  make:migration         Create a new migration file
+  make:model             Create a new Eloquent model class
+  make:notification      Create a new notification class
+  make:observer          Create a new observer class
+  make:policy            Create a new policy class
+  make:provider          Create a new service provider class
+  make:request           Create a new form request class
+  make:resource          Create a new resource
+  make:rule              Create a new validation rule
+  make:seeder            Create a new seeder class
+  make:test              Create a new test class
+ migrate
+  migrate:fresh          Drop all tables and re-run all migrations
+  migrate:install        Create the migration repository
+  migrate:refresh        Reset and re-run all migrations
+  migrate:reset          Rollback all database migrations
+  migrate:rollback       Rollback the last database migration
+  migrate:status         Show the status of each migration
+ model
+  model:prune            Prune models that are no longer needed
+ notifications
+  notifications:table    Create a migration for the notifications table
+ optimize
+  optimize:clear         Remove the cached bootstrap files
+ package
+  package:discover       Rebuild the cached package manifest
+ queue
+  queue:batches-table    Create a migration for the batches database table
+  queue:clear            Delete all of the jobs from the specified queue
+  queue:failed           List all of the failed queue jobs
+  queue:failed-table     Create a migration for the failed queue jobs database table
+  queue:flush            Flush all of the failed queue jobs
+  queue:forget           Delete a failed queue job
+  queue:listen           Listen to a given queue
+  queue:monitor          Monitor the size of the specified queues
+  queue:prune-batches    Prune stale entries from the batches database
+  queue:prune-failed     Prune stale entries from the failed jobs table
+  queue:restart          Restart queue worker daemons after their current job
+  queue:retry            Retry a failed queue job
+  queue:retry-batch      Retry the failed jobs for a batch
+  queue:table            Create a migration for the queue jobs database table
+  queue:work             Start processing jobs on the queue as a daemon
+ route
+  route:cache            Create a route cache file for faster route registration
+  route:clear            Remove the route cache file
+  route:list             List all registered routes
+ sail
+  sail:install           Install Laravel Sail's default Docker Compose file
+  sail:publish           Publish the Laravel Sail Docker files
+ sanctum
+  sanctum:prune-expired  Prune tokens expired for more than specified number of hours.
+ schedule
+  schedule:clear-cache   Delete the cached mutex files created by scheduler
+  schedule:list          List the scheduled commands
+  schedule:run           Run the scheduled commands
+  schedule:test          Run a scheduled command
+  schedule:work          Start the schedule worker
+ schema
+  schema:dump            Dump the given database schema
+ session
+  session:table          Create a migration for the session database table
+ storage
+  storage:link           Create the symbolic links configured for the application
+ stub
+  stub:publish           Publish all stubs that are available for customization
+ vendor
+  vendor:publish         Publish any publishable assets from vendor packages
+ view
+  view:cache             Compile all of the application's Blade templates
+  view:clear             Clear all compiled view files
 
 
 <!-- LARAVEL README -->
