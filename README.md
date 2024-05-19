@@ -81,8 +81,31 @@ Lista de Aulas
     <!-- Mostra uma lista com todas rotas -->
     $ php artisan route:list
 
+17 - Route list, cache e clear
+    https://www.youtube.com/watch?v=O7P8CFDrguU&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=17
+
+    <!-- Mostra uma lista com todas rotas -->
+    $ php artisan route:list
+
+    <!-- Cria um cache para todas as toras para melhorar a resposta do request da rata -->
+    $ php artisan route:cache
+
+    <!-- Mostra uma lista com todas rotas -->
+    $ php artisan route:clear
+
+18 - Configurando o Banco de Dados
+    https://www.youtube.com/watch?v=Re1dE15t9to&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=18
 
 
+
+
+
+
+
+
+
+
+    
 
 
 
