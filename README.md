@@ -1,3 +1,77 @@
+## Curso de PHP Framework Laravel
+
+# Canal Node Studio Treinamento
+Lista de Aulas
+01 - Curso de Laravel - #01 Introdução e Ambiente PHP
+    https://www.youtube.com/watch?v=SnOlhaJTMTA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=1&pp=iAQB
+
+02 - Curso de Laravel - #02 Sobre o Laragon
+    https://www.youtube.com/watch?v=iHlbDtHDAYM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=2
+
+03 - Curso de Laravel - #03 Instalando o PHP8 no Laragon
+    https://www.youtube.com/watch?v=XbgzvUL14mY&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=3
+
+04 - Curso de Laravel - #04 Instalação, Composer e Virtual Host (Laragon)
+    https://www.youtube.com/watch?v=HFnn0DXQgWA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=4
+
+05 - Curso de Laravel - #05 Estrutura de Pastas
+    https://www.youtube.com/watch?v=QU9ygaoz5jQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=5
+
+06 - Curso de Laravel - #06 PHP Artisan
+    https://www.youtube.com/watch?v=3HKsp5cjqus&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=6
+
+    Iniciando servidor usando artisan
+    $ php artisan serve
+    
+    Mudando porta do servidor
+    $ php artisan serve --port=8001
+
+
+07 - Curso de Laravel - #07 MVC
+    https://www.youtube.com/watch?v=7aObw53oKls&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=7
+
+    MODEL 
+
+    VIEW
+
+    CONTROLLER
+
+08 - Curso de Laravel - #08 Introdução as Rotas
+    https://www.youtube.com/watch?v=RPUmwrlxUw0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=8
+
+09 - Curso de Laravel - #09 Rotas Any e Match
+    https://www.youtube.com/watch?v=A9UE58vxqNg&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=9
+
+    Route::get('/company', function() {
+        return view('site/company');
+    }); 
+
+    Route::any('/any', function() {
+        return "Permite todo tipo de acesso http (GET, POST, PUT, DELETE)";
+    });
+
+    /**
+     * [Pode ser utilizado para alguma forma de segurança ou forçar sua utilização de modo correto]
+     */
+    Route::match(['put', 'delete'], '/match', function() {
+        return "Permite apenas acessos definidos";
+    });
+
+10 - Curso de Laravel - #10 Passagem de Parâmetros
+    https://www.youtube.com/watch?v=-AzmobPrYpo&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=10
+
+
+
+
+
+
+
+
+
+
+
+<!-- LARAVEL README -->
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">

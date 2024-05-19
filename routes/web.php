@@ -16,3 +16,30 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/company', function() {
+    return view('site/company');
+});
+
+Route::any('/any', function() {
+    return "Permite todo tipo de acesso http (GET, POST, PUT, DELETE)";
+});
+
+/**
+ * [Pode ser utilizado para alguma forma de segurança ou forçar sua utilização de modo correto]
+ */
+Route::match(['put', 'delete'], '/match', function() {
+    return "Permite apenas acessos definidos";
+});
+
+/**
+ * [Inserindo os parametros eles são obrigados a serem declarados, uma forma de não deixar como obrigatorio é colocar um "?" e inserir um valor padrão para o mesmo]
+ *
+ * @param   [type]  $id        [$id description]
+ * @param   [type]  $category  [$category description]
+ *
+ * @return  [type]             [return description]
+ */
+Route::get('/produto/{id}/{category?}', function($id, $category = '') {
+    return "O id do produto é:" . $id . "<br>" . " e a categoria é " . $category;
+});
