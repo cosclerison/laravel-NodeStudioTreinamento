@@ -140,11 +140,15 @@ Lista de Aulas
     <!-- Executa o fresh ele é o mais hard core exclui todas tabelas e executa o reset -->
     $ php artisan migrate:fresh
 
+# 23 - Modificando Colunas
+    https://www.youtube.com/watch?v=zePho_Yx0FU&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=23
+
+    Existe um pré requisito para executar esta tarefa de modificação de tabelas utilizando o composer
+
+    $ composer require doctrine/dbal
 
 
-
-# 23 - 
-
+# 24 - 
 
 
 

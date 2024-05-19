@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class ExcluirTabelaProduto extends Migration
+class UpdateProdutos extends Migration
 {
     /**
      * Run the migrations.
@@ -13,7 +13,10 @@ class ExcluirTabelaProduto extends Migration
      */
     public function up()
     {
-        Schema::dropIfExists('produtos');
+        Schema::table('produtos', function(Blueprint $table) {
+            $table->renameColumn('nammee', 'name');
+            $table->dropColumn('last_name');
+        });
     }
 
     /**
