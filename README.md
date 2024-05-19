@@ -5,22 +5,22 @@
 Lista de Aulas
 
 # 01 - Introdução e Ambiente PHP
-    https://www.youtube.com/watch?v=SnOlhaJTMTA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=1&pp=iAQB
+    www.youtube.com/watch?v=SnOlhaJTMTA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=1&pp=iAQB
 
 # 02 - Sobre o Laragon
-    https://www.youtube.com/watch?v=iHlbDtHDAYM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=2
+    www.youtube.com/watch?v=iHlbDtHDAYM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=2
 
 # 03 - Instalando o PHP8 no Laragon
-    https://www.youtube.com/watch?v=XbgzvUL14mY&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=3
+    www.youtube.com/watch?v=XbgzvUL14mY&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=3
 
 # 04 - Instalação, Composer e Virtual Host (Laragon)
-    https://www.youtube.com/watch?v=HFnn0DXQgWA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=4
+    www.youtube.com/watch?v=HFnn0DXQgWA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=4
 
 # 05 - Estrutura de Pastas
-    https://www.youtube.com/watch?v=QU9ygaoz5jQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=5
+    www.youtube.com/watch?v=QU9ygaoz5jQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=5
 
 # 06 - PHP Artisan
-    https://www.youtube.com/watch?v=3HKsp5cjqus&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=6
+    www.youtube.com/watch?v=3HKsp5cjqus&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=6
 
     Iniciando servidor usando artisan
     $ php artisan serve
@@ -29,15 +29,15 @@ Lista de Aulas
     $ php artisan serve --port=8001
 
 # 07 - MVC
-    https://www.youtube.com/watch?v=7aObw53oKls&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=7
+    www.youtube.com/watch?v=7aObw53oKls&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=7
 
     MODEL - VIEW - CONTROLLER
 
 # 08 - Introdução as Rotas
-    https://www.youtube.com/watch?v=RPUmwrlxUw0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=8
+    www.youtube.com/watch?v=RPUmwrlxUw0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=8
 
 # 09 - Rotas Any e Match
-    https://www.youtube.com/watch?v=A9UE58vxqNg&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=9
+    www.youtube.com/watch?v=A9UE58vxqNg&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=9
 
     Route::get('/company', function() {
         return view('site/company');
@@ -55,28 +55,28 @@ Lista de Aulas
     });
 
 # 10 - Passagem de Parâmetros
-    https://www.youtube.com/watch?v=-AzmobPrYpo&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=10
+    www.youtube.com/watch?v=-AzmobPrYpo&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=10
 
 # 11 - Redirect e View
-    https://www.youtube.com/watch?v=BMjsvHfz-ZE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=11
+    www.youtube.com/watch?v=BMjsvHfz-ZE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=11
 
 # 12 - Rotas nomeadas
-    https://www.youtube.com/watch?v=BrMn-BNL-u0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=12
+    www.youtube.com/watch?v=BrMn-BNL-u0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=12
 
 # 13 - Grupo de Rotas
-    https://www.youtube.com/watch?v=5ULouVtZ9GI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=13
+    www.youtube.com/watch?v=5ULouVtZ9GI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=13
 
 # 14 - Controllers
-    https://www.youtube.com/watch?v=Co2CL6WKosI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=14
+    www.youtube.com/watch?v=Co2CL6WKosI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=14
 
     $ php artisan make:controller ProdutoController
 
 # 15 - Passando Parâmetros Para o Controller
-    https://www.youtube.com/watch?v=_90A8o-vV34&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=15
+    www.youtube.com/watch?v=_90A8o-vV34&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=15
 
 
 # 16 - Resource
-    https://www.youtube.com/watch?v=_90A8o-vV34&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=16
+    www.youtube.com/watch?v=_90A8o-vV34&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=16
 
     $ php artisan make:controller ProdutoController --resource
 
@@ -84,7 +84,7 @@ Lista de Aulas
     $ php artisan route:list
 
 # 17 - Route list, cache e clear
-    https://www.youtube.com/watch?v=O7P8CFDrguU&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=17
+    www.youtube.com/watch?v=O7P8CFDrguU&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=17
 
     <!-- Mostra uma lista com todas rotas -->
     $ php artisan route:list
@@ -96,10 +96,10 @@ Lista de Aulas
     $ php artisan route:clear
 
 # 18 - Configurando o Banco de Dados
-    https://www.youtube.com/watch?v=Re1dE15t9to&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=18
+    www.youtube.com/watch?v=Re1dE15t9to&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=18
 
 # 19 - Entendendo os Migrations
-    https://www.youtube.com/watch?v=c5II4tbKhYE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=19
+    www.youtube.com/watch?v=c5II4tbKhYE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=19
 
     <!-- Executa os migrates que existem na pasta de migraations -->
     $ php artisan migrate
@@ -111,7 +111,7 @@ Lista de Aulas
     $ php artisan migrate:status
 
 # 20 - Criando os Migrations
-    https://www.youtube.com/watch?v=sfuqKTtCNN8&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=20
+    www.youtube.com/watch?v=sfuqKTtCNN8&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=20
 
     <!-- script para criar uma migrations -->
     <!-- Cria coluna produtos na tabela -->
@@ -119,7 +119,7 @@ Lista de Aulas
     $ php artisan make:migration products --create="nome da tabela"
 
 # 21 - Editando e Excluindo tabelas
-    https://www.youtube.com/watch?v=lAfg1zNDMQA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=21
+    www.youtube.com/watch?v=lAfg1zNDMQA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=21
 
     <!-- alterar nome de uma tabela -->
     Schema::rename('produtos', 'produto');
@@ -128,7 +128,7 @@ Lista de Aulas
     Schema::dropIfExists('produtos');
 
 # 22 - Reset, Refresh e Fresh
-    https://www.youtube.com/watch?v=p5qPFe93dIQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=22
+    www.youtube.com/watch?v=p5qPFe93dIQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=22
 
     <!-- Executando o reset ele apaga todas migrations do banco de dados -->
     < OBS > nunca faça isso em produção á não ser que saiba exatamente o que esta fazendo
@@ -141,18 +141,21 @@ Lista de Aulas
     $ php artisan migrate:fresh
 
 # 23 - Modificando Colunas
-    https://www.youtube.com/watch?v=zePho_Yx0FU&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=23
+    www.youtube.com/watch?v=zePho_Yx0FU&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=23
 
     Existe um pré requisito para executar esta tarefa de modificação de tabelas utilizando o composer
 
     $ composer require doctrine/dbal
 
+# 24 - Entendendo os Models
+    www.youtube.com/watch?v=7xQSJwy4IRw&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=24
 
-# 24 - 
+    <!-- Criando Model -->
+    $ php artisan make:model Produto
 
+    <OBS> ORM = Object Relacional Model
 
-
-
+# 25 - 
 
 
 
