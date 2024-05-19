@@ -213,6 +213,17 @@ Lista de Aulas
 # 33 - Laravel Snippers
     www.youtube.com/watch?v=Pc2FqBiVmvI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=33
 
+# 34 - Comentários e Operador Ternário
+    www.youtube.com/watch?v=kr-HoJ0g51g&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=34
+
+# 35 - Customizando views de erro
+    www.youtube.com/watch?v=TvGGsumEEI0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=35
+
+# 36 - 
+
+
+
+
 
 
 
