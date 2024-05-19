@@ -96,6 +96,17 @@ Lista de Aulas
 18 - Configurando o Banco de Dados
     https://www.youtube.com/watch?v=Re1dE15t9to&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=18
 
+19 - Entendendo os Migrations
+    https://www.youtube.com/watch?v=c5II4tbKhYE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=19
+
+    <!-- Executa os migrates que existem na pasta de migraations -->
+    $ php artisan migrate
+
+    <!-- Executa um retorno para o ultimo migrations executado -->
+    $ php artisan migrate:rollback
+
+    <!-- Mostra o status das migrations -->
+    $ php artisan migrate:status
 
 
 
@@ -105,7 +116,10 @@ Lista de Aulas
 
 
 
-    
+
+
+
+
 
 
 
