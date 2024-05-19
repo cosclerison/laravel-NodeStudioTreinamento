@@ -108,6 +108,8 @@ Lista de Aulas
     <!-- Mostra o status das migrations -->
     $ php artisan migrate:status
 
+20 - Criando os Migrations
+    https://www.youtube.com/watch?v=sfuqKTtCNN8&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=20
 
 
 
