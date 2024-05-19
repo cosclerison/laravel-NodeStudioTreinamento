@@ -19,7 +19,7 @@ class CreateProdutosTable extends Migration
             $table->text('description'); // Cria uma coluna "description" do tipo TEXT para armazenar a descrição do produto.
             $table->double('price', 10, 2); // Cria uma coluna "price" do tipo DOUBLE com 10 dígitos no total e 2 casas decimais para armazenar o preço do produto.
             $table->string('slug'); // Cria uma coluna "slug" do tipo VARCHAR (255) para armazenar o slug (URL amigável) do produto.
-            $table->string('image'); // Cria uma coluna "image" do tipo VARCHAR (255) para armazenar o caminho ou nome da imagem do produto.
+            $table->string('image')->nullable(); // Cria uma coluna "image" do tipo VARCHAR (255) para armazenar o caminho ou nome da imagem do produto. inserido atributo nullable porque pode haver registro sem imagem.
             $table->unsignedBigInteger('id_user'); // Cria uma coluna "id_user" do tipo UNSIGNED BIGINT para armazenar a chave estrangeira relacionada ao usuário.
             $table->foreign('id_user')->references('id')->on('users')->onDelete('cascade')->onUpdate('cascade'); // Define "id_user" como uma chave estrangeira que referencia a coluna "id" da tabela "users". Se o usuário for deletado, todos os produtos associados a ele serão deletados em cascata. Se o "id" do usuário for atualizado, o "id_user" será atualizado em cascata.
 

@@ -170,8 +170,16 @@ Lista de Aulas
     php artisan make:model Category -m -cr
     OU
     php artisan make:model Category -mcr
+    
+    php artisan migrate:fresh
 
-# 26 - 
+# 26 - Seeder
+    www.youtube.com/watch?v=Cx1cjr7uSq4&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=26
+
+    <!-- Criando Seeder para agilizar no processo de popular a tabela do banco de dados -->
+    $ php artisan make:seeder  UsersSeeder
+
+# 27 - 
 
 
 
