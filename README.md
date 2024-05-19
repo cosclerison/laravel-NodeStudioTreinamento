@@ -26,15 +26,10 @@ Lista de Aulas
     Mudando porta do servidor
     $ php artisan serve --port=8001
 
-
 07 - Curso de Laravel - #07 MVC
     https://www.youtube.com/watch?v=7aObw53oKls&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=7
 
-    MODEL 
-
-    VIEW
-
-    CONTROLLER
+    MODEL - VIEW - CONTROLLER
 
 08 - Curso de Laravel - #08 Introdução as Rotas
     https://www.youtube.com/watch?v=RPUmwrlxUw0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=8
@@ -63,7 +58,10 @@ Lista de Aulas
 11 - Curso de Laravel - #11 Redirect e View
     https://www.youtube.com/watch?v=BMjsvHfz-ZE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=11
 
-12 - 
+
+
+12 - Curso de Laravel - #12 Rotas nomeadas
+    https://www.youtube.com/watch?v=BrMn-BNL-u0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=12
 
 
 

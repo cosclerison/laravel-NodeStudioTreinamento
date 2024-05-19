@@ -53,3 +53,16 @@ Route::redirect('/contato', '/empresa');
 
 // metodo simplificado de fazer rota da view
 Route::view('/perfil', 'site/perfil');
+
+Route::get('/news', function() {
+    return view("news.news");
+})->name("noticias");
+
+/**
+ * redirecionando para o name declarado na rota news
+ * mesmo se alterar a rota o name sera usado como link
+ * caso o name for mudado o redirect não vai funcionar
+ */
+Route::get('/novidades', function(){
+    return redirect()->route('noticias');
+});
