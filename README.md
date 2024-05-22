@@ -287,12 +287,10 @@ Lista de Aulas
     Certifique-se de que a rota está corretamente configurada e não há nenhum conflito. O seu arquivo web.php deve estar configurado corretamente:
     Route::get('/', [SiteController::class, 'index'])->name('site.index');
 
-# 45 - 
+# 45 - Listagem de único produto
     www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=45
-
-
-    
-# 46 - 
+ 
+# 46 - OneToMany Inverse / belongsTo
     www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=46
     
 # 47 - 
