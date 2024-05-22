@@ -261,7 +261,10 @@ Lista de Aulas
 # 42 - Listagem de produtos na home
     www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=42
 
-# 43 - 
+# 43 - Paginação de Resultados
+    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=43
+
+
 # 44 - 
 # 45 - 
 # 46 - 

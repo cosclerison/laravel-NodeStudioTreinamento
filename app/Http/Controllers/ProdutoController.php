@@ -11,7 +11,7 @@ class ProdutoController extends Controller
 {
     public function index() {
         
-        $produtos = Product::all();
+        $produtos = Product::paginate(3);
 
         // return view('site.home', ["produtos" => $produtos]);
         // outro modo

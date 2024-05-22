@@ -8,7 +8,7 @@
 
     @foreach($produtos as $produto)
 
-        <div class="col s12 m3">
+        <div class="col s12 m4">
             <div class="card">
                 <div class="card-image">
                     <img src="{{ $produto->image }}">
@@ -24,7 +24,10 @@
         </div>
             
     @endforeach
+</div>
 
+<div class="row center">
+    {{ $produtos->links('custom.pagination') }}
 </div>
 
 {{-- Abaixo exercicios das aulas anteriores a  aula 41 --}}
