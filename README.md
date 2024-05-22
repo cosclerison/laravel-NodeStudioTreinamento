@@ -231,9 +231,38 @@ Lista de Aulas
 # 39 - Stacks e Push
     www.youtube.com/watch?v=F1AoWqjksrQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=39
 
-# 40 - 
+    Materialize https://materializecss.com/
+    
+    A modern responsive front-end framework based on Material Design
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+# 40 - Viewcache e Viewclear
+    www.youtube.com/watch?v=0Pfz42jz8YI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=40
+
+    <!-- Coloca todas views em cache -->
+    $php artisan view:cache
+    
+    <!-- Limpa todas views da cache -->
+    $php artisan view:clear
+
+# 41 - Implementando Materialize CSS
+    www.youtube.com/watch?v=ImXj4q9ZYss&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=41
 
 
+# 42 - 
+# 43 - 
+# 44 - 
+# 45 - 
+# 46 - 
+# 47 - 
+# 48 - 
+# 49 - 
+# 50 - 
 
 
 

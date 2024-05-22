@@ -4,8 +4,75 @@
 
 @section('content')
 
+<div class="row container">
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title">Card Title</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">visibility</i></a>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title">Card Title</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title">Card Title</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col s12 m3">
+        <div class="card">
+            <div class="card-image">
+                <img src="images/sample-1.jpg">
+                <span class="card-title">Card Title</span>
+                <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+            </div>
+            <div class="card-content">
+                <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{{-- Abaixo exercicios das aulas anteriores a  aula 41 --}}
 {{-- Comentario que não e rederizado no navegador --}}
-    <h1>Essa é a Home</h1>
+    {{-- <h1>Essa é a Home</h1> --}}
 
 
     {{-- If Ternario --}}
@@ -103,20 +170,20 @@
                                             {{-- ### Component ### --}}
 
     {{-- Component --}}
-    @component('components.sidebar')
+    {{-- @component('components.sidebar')
         @slot('paragraph')
             Texto declarado dentro de slot na view home.blade.php
         @endslot
-    @endcomponent
+    @endcomponent --}}
 
 @endsection
 
-@push('style')
+{{-- @push('style')
 <!-- Compiled and minified CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-@endpush
+@endpush --}}
 
-@push('script')
+{{-- @push('script')
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-@endpush
+@endpush --}}
