@@ -250,11 +250,17 @@ Lista de Aulas
     <!-- Limpa todas views da cache -->
     $php artisan view:clear
 
-# 41 - Implementando Materialize CSS
+# 41 - Implementando Materialize CSS and ICON
     www.youtube.com/watch?v=ImXj4q9ZYss&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=41
 
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Compiled ICON -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-# 42 - 
+# 42 - Listagem de produtos na home
+    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=42
+
 # 43 - 
 # 44 - 
 # 45 - 

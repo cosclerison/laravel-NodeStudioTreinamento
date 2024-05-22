@@ -11,23 +11,31 @@ class ProdutoController extends Controller
 {
     public function index() {
         
+        $produtos = Product::all();
+
+        // return view('site.home', ["produtos" => $produtos]);
+        // outro modo
+        return view('site.home', compact("produtos"));
+        /**
+         * [Abaixo dados de exercicios do curso antes da aula 42]
+         */
         // return "<h1>Index</h1>";
 
         // $produtos = Product::all();
         // return $produtos;
 
-        $name = 'Clerison';
-        $age  = 40;
-        $html = "<h1> Olá somos a PumaSync </h1>";
-        $frutas = [
-            'Maçã',
-            'Laranja',
-            'Uva',
-            'Pera',
-            'Abacaxi',
-            'Cáqui',
-            'Limão',
-        ];
+        // $name = 'Clerison';
+        // $age  = 40;
+        // $html = "<h1> Olá somos a PumaSync </h1>";
+        // $frutas = [
+        //     'Maçã',
+        //     'Laranja',
+        //     'Uva',
+        //     'Pera',
+        //     'Abacaxi',
+        //     'Cáqui',
+        //     'Limão',
+        // ];
 
         // Primeiro modo de declarar as variaveis
         // return view('news.news', 
@@ -39,7 +47,7 @@ class ProdutoController extends Controller
 
         // Segundo modo de declarar as variaveis
         // return view('news.news', compact('name', 'age', 'html'));
-        return view('site.home', compact('name', 'age', 'html', 'frutas'));
+        // return view('site.home', compact('name', 'age', 'html', 'frutas'));
 
     }
 
