@@ -264,14 +264,49 @@ Lista de Aulas
 # 43 - Paginação de Resultados
     www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=43
 
+    OBS: Professor não disponibilizou o codigo utilizado na paginação
 
-# 44 - 
+# 44 - Criando o SiteController
+    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=44
+
+    OBS: Nesta aula encontrei um erro complicado, no erro ele não deixava alterar a rota da view
+    forçando usar welcome.blade.php. ao invez de usar view/site/home.blade.php
+
+    Limpe o Cache das Views
+    Às vezes, o Laravel pode armazenar em cache informações sobre views e rotas. Para garantir que isso não está causando o problema, você pode limpar o cache das views e das rotas:
+
+    Corrigido efetuando a limpeza de cache
+    $ php artisan cache:clear    
+    $ php artisan view:clear
+    $ php artisan route:clear
+
+    As permissões da pasta resources/views e seus arquivos devem permitir leitura pelo servidor web. No Linux, você pode ajustar as permissões usando:
+    Adicionando permissão de edição a pasta View
+    $ chmod -R 755 resources/views
+
+    Certifique-se de que a rota está corretamente configurada e não há nenhum conflito. O seu arquivo web.php deve estar configurado corretamente:
+    Route::get('/', [SiteController::class, 'index'])->name('site.index');
+
 # 45 - 
+    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=45
+
+
+    
 # 46 - 
+    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=46
+    
 # 47 - 
+    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=47
+    
 # 48 - 
+    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=48
+    
 # 49 - 
+    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=49
+    
 # 50 - 
+    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=50
+    
 
 
 

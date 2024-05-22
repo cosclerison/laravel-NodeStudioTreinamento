@@ -12,7 +12,7 @@
             <div class="card">
                 <div class="card-image">
                     <img src="{{ $produto->image }}">
-                    <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">visibility</i></a>
+                    <a href="{{ route('site.details', $produto->slug) }}" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">visibility</i></a>
                 </div>
                 <div class="card-content">
                     <span class="card-title">{{ Str::limit($produto->name, 10, '...' )}}</span>
@@ -26,8 +26,9 @@
     @endforeach
 </div>
 
-<div class="row center">
-    {{ $produtos->links('custom.pagination') }}
+<div class="row center justify-content-between">
+    {{-- {{ $produtos->links('custom.pagination') }} --}}
+    {{ $produtos->links() }}
 </div>
 
 {{-- Abaixo exercicios das aulas anteriores a  aula 41 --}}
