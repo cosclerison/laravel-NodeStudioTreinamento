@@ -21,7 +21,7 @@
             Categoria: {{ $produto->category->name }}
         </p>
 
-        <form action="{{ route('site.carrinho') }}" method="POST">
+        <form action="{{ route('site.carrinho') }}" method="POST" enctype="multipart/form-data">
             {{-- 
                 O que é CSRF (Cross-Site Request Forgery)?
                 CSRF, também conhecido como ataque de falsificação de solicitações entre sites, explora a confiança que os aplicativos web depositam em seus usuários autenticados.

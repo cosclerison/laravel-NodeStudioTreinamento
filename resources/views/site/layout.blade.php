@@ -25,7 +25,7 @@
               </a></li>
             <li>
               <a href="{{ route('site.carrinho') }}">
-                Carrinhos
+                Carrinho
                 @if(Cart::getContent()->count() != 0)
                   <strong>
                     <span class="new bagde light-blue circle" data-badge-caption="">

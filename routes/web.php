@@ -8,14 +8,13 @@ use App\Http\Controllers\SiteController;
 use App\Http\Controllers\ProdutoController;
 
 // CONTROLLERS
-Route::get('/', [SiteController::class, 'index'])->name('site.index');
-
 Route::resource('produtos', ProdutoController::class);
 
+Route::get('/', [SiteController::class, 'index'])->name('site.index');
 Route::get('/produto/{slug}', [SiteController::class, 'details'])->name('site.details');
-
 Route::get('/categoria/{id}', [SiteController::class, 'category'])->name('site.category');
 
-Route::get('carrinho', [CartController::class, 'cartList'])->name('site.carrinho');
-
+Route::get('/carrinho', [CartController::class, 'cartList'])->name('site.carrinho');
 Route::post('/carrinho', [CartController::class, 'addCart'])->name('site.carrinho');
+Route::post('/remover', [CartController::class, 'deleteCart'])->name('site.deletecarrinho');
+Route::post('/atualizar', [CartController::class, 'updateCart'])->name('site.atualizacarrinho');

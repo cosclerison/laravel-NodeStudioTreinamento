@@ -50,21 +50,33 @@
               </td>
               <td>{{ $item->name }}</td>
               <td>R$ {{ number_format($item->price, 2, ",", ".") }}</td>
-              <td>
-                <input 
-                type="number"
-                name="quantity"
-                style="width: 40px; font-weight:900;"
-                class="write center"
-                value="{{ $item->quantity }}">
-              </td>
-              <td>
-                <button class="btn-floating waves-effect waves-light orange">
-                  <i class="material-icons">refresh</i>
-                </button>
-                <button class="btn-floating waves-effect waves-light red">
-                  <i class="material-icons">delete</i>
-                </button>
+              
+              {{-- Button Update --}}
+              <form action="{{ route('site.atualizacarrinho') }}" method="post" enctype="multipart/form-data">
+                @csrf
+                <td>
+                  <input 
+                  type="number"
+                  name="quantity"
+                  style="width: 40px; font-weight:900;"
+                  class="write center"
+                  value="{{ $item->quantity }}">
+                </td>
+                <td>
+                  <button class="btn-floating waves-effect waves-light orange">
+                    <input type="hidden" name="id" value="{{ $item->id }}">
+                    <i class="material-icons">refresh</i>
+                  </button>
+              </form>
+
+                {{-- Button Update --}}
+                <form action="{{ route('site.deletecarrinho') }}" method="post" enctype="multipart/form-data">
+                  @csrf
+                  <input type="hidden" name="id" value="{{ $item->id }}">
+                  <button class="btn-floating waves-effect waves-light red">
+                    <i class="material-icons">delete</i>
+                  </button>
+                </form>
 
               </td>
             </tr>

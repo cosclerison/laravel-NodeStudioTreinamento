@@ -304,10 +304,17 @@ Lista de Aulas
 
 # 53 - RedirectWith (CONCLUIDO)
 
+# 54 - Removendo itens do carrinho (CONCLUIDO)
+
+# 55 - Atualizando itens do carrinho (CONCLUIDO)
 
 
-# 54 - ()
-# 55 - ()
+
+
+
+
+
+
 # 56 - ()
 # 57 - ()
 # 58 - ()
