@@ -316,6 +316,9 @@ Lista de Aulas
 
     $ php artisan make:controller LoginController
 
+# 59 - Validações (CONCLUIDO)
+    OBS: Nesta aula foi necessario excluir o usuario e executar o seeder novamente
+    $ php artisan db:seed
 
 
 
@@ -324,7 +327,6 @@ Lista de Aulas
 
 
 
-# 59 - ()
 
 # 60 - ()
 # 61 - ()

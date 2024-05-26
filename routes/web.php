@@ -4,6 +4,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CartController;
+use App\Http\Controllers\LoginController;
 use App\Http\Controllers\SiteController;
 use App\Http\Controllers\ProdutoController;
 
@@ -19,3 +20,6 @@ Route::post('/carrinho', [CartController::class, 'addCart'])->name('site.carrinh
 Route::post('/remover', [CartController::class, 'deleteCart'])->name('site.deletecarrinho');
 Route::post('/atualizar', [CartController::class, 'updateCart'])->name('site.atualizacarrinho');
 Route::get('/limpar', [CartController::class, 'clearCart'])->name('site.limpacarrinho');
+
+Route::view('/login', 'login.form')->name('login.form');
+Route::post('/auth', [LoginController::class, 'auth'])->name('login.auth');
