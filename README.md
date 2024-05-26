@@ -282,7 +282,21 @@ Lista de Aulas
     
 # 49 - Mostrar nome da categoria e preço numberFormat (CONCLUIDO)
     
-# 50 -
+# 50 - Carrinho de compras com darryldecode/cart (CONCLUIDO)
+    https://github.com/darryldecode/laravelshoppingcart
+
+    INSTALLATION
+    Install the package through Composer.
+
+    $ php composer require darryldecode/cart
+
+    CONFIGURATION
+        Open config/app.php and add this line to your Service Providers Array.
+            Darryldecode\Cart\CartServiceProvider::class
+        Open config/app.php and add this line to your Aliases
+            'Cart' => Darryldecode\Cart\Facades\CartFacade::class
+        Optional configuration file (useful if you plan to have full control)
+            php artisan vendor:publish --provider="Darryldecode\Cart\CartServiceProvider" --tag="config"
 
 
 
@@ -291,60 +305,59 @@ Lista de Aulas
 
 
 
+# 51 - ()
+# 52 - ()
+# 53 - ()
+# 54 - ()
+# 55 - ()
+# 56 - ()
+# 57 - ()
+# 58 - ()
+# 59 - ()
 
-# 51 -
-# 52 - 
-# 53 - 
-# 54 - 
-# 55 - 
-# 56 - 
-# 57 - 
-# 58 - 
-# 59 - 
+# 60 - ()
+# 61 - ()
+# 62 - ()
+# 63 - ()
+# 64 - ()
+# 65 - ()
+# 66 - ()
+# 67 - ()
+# 68 - ()
+# 69 - ()
 
-# 60 - 
-# 61 - 
-# 62 - 
-# 63 - 
-# 64 - 
-# 65 - 
-# 66 - 
-# 67 - 
-# 68 - 
-# 69 - 
+# 70 - ()
+# 71 - ()
+# 72 - ()
+# 73 - ()
+# 74 - ()
+# 75 - ()
+# 76 - ()
+# 77 - ()
+# 78 - ()
+# 79 - ()
 
-# 70 - 
-# 71 - 
-# 72 - 
-# 73 - 
-# 74 - 
-# 75 - 
-# 76 - 
-# 77 - 
-# 78 - 
-# 79 - 
+# 80 - ()
+# 81 - ()
+# 82 - ()
+# 83 - ()
+# 84 - ()
+# 85 - ()
+# 86 - ()
+# 87 - ()
+# 88 - ()
+# 89 - ()
 
-# 80 - 
-# 81 - 
-# 82 - 
-# 83 - 
-# 84 - 
-# 85 - 
-# 86 - 
-# 87 - 
-# 88 - 
-# 89 - 
-
-# 90 - 
-# 91 - 
-# 92 - 
-# 93 - 
-# 94 - 
-# 95 - 
-# 96 - 
-# 97 - 
-# 98 - 
-# 99 - 
+# 90 - ()
+# 91 - ()
+# 92 - ()
+# 93 - ()
+# 94 - ()
+# 95 - ()
+# 96 - ()
+# 97 - ()
+# 98 - ()
+# 99 - ()
     
 
 
