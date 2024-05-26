@@ -23,7 +23,7 @@
               <a href="" class="dropdown-trigger" data-target="dropdown1">
                 Categoria<i class="material-icons right">expand_more</i>
               </a></li>
-            <li><a href="badges.html">Carrinho</a></li>
+            <li><a href="{{ route('site.carrinho') }}">Carrinho</a></li>
           </ul>
         </div>
     </nav>
