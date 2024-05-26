@@ -5,27 +5,21 @@
 
 Lista de Aulas
 
-# 01 - Introdução e Ambiente PHP
-    www.youtube.com/watch?v=SnOlhaJTMTA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=1&pp=iAQB
+# 01 - Introdução e Ambiente PHP (CONCLUIDO)
 
-# 02 - Sobre o Laragon
-    www.youtube.com/watch?v=iHlbDtHDAYM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=2
+# 02 - Sobre o Laragon (CONCLUIDO)
 
-# 03 - Instalando o PHP8 no Laragon
-    www.youtube.com/watch?v=XbgzvUL14mY&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=3
+# 03 - Instalando o PHP8 no Laragon (CONCLUIDO)
 
-# 04 - Instalação, Composer e Virtual Host (Laragon)
-    www.youtube.com/watch?v=HFnn0DXQgWA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=4
+# 04 - Instalação, Composer e Virtual Host (Laragon) (CONCLUIDO)
 
-# 05 - Estrutura de Pastas
-    www.youtube.com/watch?v=QU9ygaoz5jQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=5
+# 05 - Estrutura de Pastas (CONCLUIDO)
 
     Configurações Iniciais importantes
     Iniserindo permissão da pasta Views evita erros futuros nas proximas aulas seguintes
     $ chmod -R 755 resources/views
 
-# 06 - PHP Artisan
-    www.youtube.com/watch?v=3HKsp5cjqus&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=6
+# 06 - PHP Artisan (CONCLUIDO)
 
     Iniciando servidor usando artisan
     $ php artisan serve
@@ -33,16 +27,13 @@ Lista de Aulas
     Mudando porta do servidor
     $ php artisan serve --port=8001
 
-# 07 - MVC
-    www.youtube.com/watch?v=7aObw53oKls&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=7
+# 07 - MVC (CONCLUIDO)
 
     MODEL - VIEW - CONTROLLER
 
-# 08 - Introdução as Rotas
-    www.youtube.com/watch?v=RPUmwrlxUw0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=8
+# 08 - Introdução as Rotas (CONCLUIDO)
 
-# 09 - Rotas Any e Match
-    www.youtube.com/watch?v=A9UE58vxqNg&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=9
+# 09 - Rotas Any e Match (CONCLUIDO)
 
     Route::get('/company', function() {
         return view('site/company');
@@ -59,37 +50,29 @@ Lista de Aulas
         return "Permite apenas acessos definidos";
     });
 
-# 10 - Passagem de Parâmetros
-    www.youtube.com/watch?v=-AzmobPrYpo&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=10
+# 10 - Passagem de Parâmetros (CONCLUIDO)
 
-# 11 - Redirect e View
-    www.youtube.com/watch?v=BMjsvHfz-ZE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=11
+# 11 - Redirect e View (CONCLUIDO)
 
-# 12 - Rotas nomeadas
-    www.youtube.com/watch?v=BrMn-BNL-u0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=12
+# 12 - Rotas nomeadas (CONCLUIDO)
 
-# 13 - Grupo de Rotas
-    www.youtube.com/watch?v=5ULouVtZ9GI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=13
+# 13 - Grupo de Rotas (CONCLUIDO)
 
-# 14 - Controllers
-    www.youtube.com/watch?v=Co2CL6WKosI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=14
+# 14 - Controllers (CONCLUIDO)
 
     $ php artisan make:controller ProdutoController
 
-# 15 - Passando Parâmetros Para o Controller
-    www.youtube.com/watch?v=_90A8o-vV34&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=15
+# 15 - Passando Parâmetros Para o Controller (CONCLUIDO)
 
 
-# 16 - Resource
-    www.youtube.com/watch?v=_90A8o-vV34&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=16
+# 16 - Resource (CONCLUIDO)
 
     $ php artisan make:controller ProdutoController --resource
 
     <!-- Mostra uma lista com todas rotas -->
     $ php artisan route:list
 
-# 17 - Route list, cache e clear
-    www.youtube.com/watch?v=O7P8CFDrguU&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=17
+# 17 - Route list, cache e clear (CONCLUIDO)
 
     <!-- Mostra uma lista com todas rotas -->
     $ php artisan route:list
@@ -100,11 +83,9 @@ Lista de Aulas
     <!-- Mostra uma lista com todas rotas -->
     $ php artisan route:clear
 
-# 18 - Configurando o Banco de Dados
-    www.youtube.com/watch?v=Re1dE15t9to&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=18
+# 18 - Configurando o Banco de Dados (CONCLUIDO)
 
-# 19 - Entendendo os Migrations
-    www.youtube.com/watch?v=c5II4tbKhYE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=19
+# 19 - Entendendo os Migrations (CONCLUIDO)
 
     <!-- Executa os migrates que existem na pasta de migraations -->
     $ php artisan migrate
@@ -115,16 +96,14 @@ Lista de Aulas
     <!-- Mostra o status das migrations -->
     $ php artisan migrate:status
 
-# 20 - Criando os Migrations
-    www.youtube.com/watch?v=sfuqKTtCNN8&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=20
+# 20 - Criando os Migrations (CONCLUIDO)
 
     <!-- script para criar uma migrations -->
     <!-- Cria coluna produtos na tabela -->
     $ php artisan make:migration create_produtos_table
     $ php artisan make:migration products --create="nome da tabela"
 
-# 21 - Editando e Excluindo tabelas
-    www.youtube.com/watch?v=lAfg1zNDMQA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=21
+# 21 - Editando e Excluindo tabelas (CONCLUIDO)
 
     <!-- alterar nome de uma tabela -->
     Schema::rename('produtos', 'produto');
@@ -132,8 +111,7 @@ Lista de Aulas
     <!-- Excluir uma Tabela -->
     Schema::dropIfExists('produtos');
 
-# 22 - Reset, Refresh e Fresh
-    www.youtube.com/watch?v=p5qPFe93dIQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=22
+# 22 - Reset, Refresh e Fresh (CONCLUIDO)
 
     <!-- Executando o reset ele apaga todas migrations do banco de dados -->
     < OBS > nunca faça isso em produção á não ser que saiba exatamente o que esta fazendo
@@ -145,15 +123,13 @@ Lista de Aulas
     <!-- Executa o fresh ele é o mais hard core exclui todas tabelas e executa o reset -->
     $ php artisan migrate:fresh
 
-# 23 - Modificando Colunas
-    www.youtube.com/watch?v=zePho_Yx0FU&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=23
+# 23 - Modificando Colunas (CONCLUIDO)
 
     Existe um pré requisito para executar esta tarefa de modificação de tabelas utilizando o composer
 
     $ composer require doctrine/dbal
 
-# 24 - Entendendo os Models
-    www.youtube.com/watch?v=7xQSJwy4IRw&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=24
+# 24 - Entendendo os Models (CONCLUIDO)
 
     <!-- Criando Model -->
     $ php artisan make:model Produto
@@ -162,8 +138,7 @@ Lista de Aulas
 
     Exemplo: $produtos = Product::all();
 
-# 25 - Criando tabelas Users, Categorias e Produtos
-    www.youtube.com/watch?v=s4x6GEqa3ZQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=25
+# 25 - Criando tabelas Users, Categorias e Produtos (CONCLUIDO)
 
     <!-- Criando model and migration -->
     $ php artisan make:model category --migration
@@ -178,8 +153,7 @@ Lista de Aulas
     
     php artisan migrate:fresh
 
-# 26 - Seeder
-    www.youtube.com/watch?v=Cx1cjr7uSq4&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=26
+# 26 - Seeder (CONCLUIDO)
 
     <!-- Criando Seeder para agilizar no processo de popular a tabela do banco de dados -->
     $ php artisan make:seeder  UsersSeeder
@@ -187,14 +161,12 @@ Lista de Aulas
     <!-- Para executar o seeder -->
     $ php artisan db:seed
 
-# 27 - Factory
-    www.youtube.com/watch?v=X3JsQ8jL1Ko&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=27
+# 27 - Factory (CONCLUIDO)
 
     <!-- Criando Factory para automatizar a criação de categorias -->
     $ php artisan make:factory CategoryFactory
 
-# 28 - mfscr
-    www.youtube.com/watch?v=JYVrE38WBCE&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=28
+# 28 - mfscr (CONCLUIDO)
 
     <!-- Utilizando metodos simplificados de criar as estruturas -->
     $ php artisan make:teste --migration --factory --seed --controller --resource
@@ -203,38 +175,27 @@ Lista de Aulas
     OU
     $ php artisan make:teste -mfscr
 
-# 29 - Factory Produtos e StrSlug
-    www.youtube.com/watch?v=GOX4uRiR5Fw&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=29
+# 29 - Factory Produtos e StrSlug (CONCLUIDO)
 
-# 30 - Relacionamentos
-    www.youtube.com/watch?v=BHZUtimDGVs&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=30
+# 30 - Relacionamentos (CONCLUIDO)
 
-# 31 - Introdução as views
-    www.youtube.com/watch?v=jf8WnaIQHcA&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=31
+# 31 - Introdução as views (CONCLUIDO)
 
-# 32 - Section, Yield e Extends
-    www.youtube.com/watch?v=HPvD7pNc_RM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=32
+# 32 - Section, Yield e Extends (CONCLUIDO)
 
-# 33 - Laravel Snippers
-    www.youtube.com/watch?v=Pc2FqBiVmvI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=33
+# 33 - Laravel Snippers (CONCLUIDO)
 
-# 34 - Comentários e Operador Ternário
-    www.youtube.com/watch?v=kr-HoJ0g51g&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=34
+# 34 - Comentários e Operador Ternário (CONCLUIDO)
 
-# 35 - Customizando views de erro
-    www.youtube.com/watch?v=TvGGsumEEI0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=35
+# 35 - Customizando views de erro (CONCLUIDO)
 
-# 36 - Estruturas de controle
-    www.youtube.com/watch?v=TeMkk1HZBhc&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=36
+# 36 - Estruturas de controle (CONCLUIDO)
 
-# 37 - Estruturas de repetição
-    www.youtube.com/watch?v=PP7sLx8yxK0&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=37
+# 37 - Estruturas de repetição (CONCLUIDO)
 
-# 38 - Include e Component
-    www.youtube.com/watch?v=Gjvcun2Zbfg&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=38
+# 38 - Include e Component (CONCLUIDO)
 
-# 39 - Stacks e Push
-    www.youtube.com/watch?v=F1AoWqjksrQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=39
+# 39 - Stacks e Push (CONCLUIDO)
 
     Materialize https://materializecss.com/
     
@@ -246,8 +207,7 @@ Lista de Aulas
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
             
-# 40 - Viewcache e Viewclear
-    www.youtube.com/watch?v=0Pfz42jz8YI&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=40
+# 40 - Viewcache e Viewclear (CONCLUIDO)
 
     <!-- Coloca todas views em cache -->
     $php artisan view:cache
@@ -255,24 +215,20 @@ Lista de Aulas
     <!-- Limpa todas views da cache -->
     $php artisan view:clear
 
-# 41 - Implementando Materialize CSS and ICON
-    www.youtube.com/watch?v=ImXj4q9ZYss&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=41
+# 41 - Implementando Materialize CSS and ICON (CONCLUIDO)
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled ICON -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-# 42 - Listagem de produtos na home
-    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=42
+# 42 - Listagem de produtos na home (CONCLUIDO)
 
-# 43 - Paginação de Resultados
-    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=43
+# 43 - Paginação de Resultados (CONCLUIDO)
 
     OBS: Professor não disponibilizou o codigo utilizado na paginação
 
-# 44 - Criando o SiteController
-    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=44
+# 44 - Criando o SiteController (CONCLUIDO)
 
     OBS: Nesta aula encontrei um erro complicado, no erro ele não deixava alterar a rota da view
     forçando usar welcome.blade.php. ao invez de usar view/site/home.blade.php
@@ -292,14 +248,11 @@ Lista de Aulas
     Certifique-se de que a rota está corretamente configurada e não há nenhum conflito. O seu arquivo web.php deve estar configurado corretamente:
     Route::get('/', [SiteController::class, 'index'])->name('site.index');
 
-# 45 - Listagem de único produto
-    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=45
+# 45 - Listagem de único produto (CONCLUIDO)
  
-# 46 - OneToMany Inverse / belongsTo
-    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=46
+# 46 - OneToMany Inverse / belongsTo (CONCLUIDO)
     
-# 47 - Categorias dinâmicas com viewShare
-    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=47
+# 47 - Categorias dinâmicas com viewShare (CONCLUIDO)
 
     OBS: Script correto, no site esta faltando declarar a variavel "options"
     <script>
@@ -325,14 +278,73 @@ Lista de Aulas
             });
     </script>
    
-# 48 - Listar produtos de uma categoria
-    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=48
+# 48 - Listar produtos de uma categoria (CONCLUIDO)
     
-# 49 - 
-    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=49
+# 49 - Mostrar nome da categoria e preço numberFormat (CONCLUIDO)
     
-# 50 - 
-    www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=50
+# 50 -
+
+
+
+
+
+
+
+
+
+# 51 -
+# 52 - 
+# 53 - 
+# 54 - 
+# 55 - 
+# 56 - 
+# 57 - 
+# 58 - 
+# 59 - 
+
+# 60 - 
+# 61 - 
+# 62 - 
+# 63 - 
+# 64 - 
+# 65 - 
+# 66 - 
+# 67 - 
+# 68 - 
+# 69 - 
+
+# 70 - 
+# 71 - 
+# 72 - 
+# 73 - 
+# 74 - 
+# 75 - 
+# 76 - 
+# 77 - 
+# 78 - 
+# 79 - 
+
+# 80 - 
+# 81 - 
+# 82 - 
+# 83 - 
+# 84 - 
+# 85 - 
+# 86 - 
+# 87 - 
+# 88 - 
+# 89 - 
+
+# 90 - 
+# 91 - 
+# 92 - 
+# 93 - 
+# 94 - 
+# 95 - 
+# 96 - 
+# 97 - 
+# 98 - 
+# 99 - 
     
 
 

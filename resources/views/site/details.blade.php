@@ -5,13 +5,15 @@
 @section('content')
 
 <div class="row container">
+    </br>
 
     <div class="col s12 m6">
         <img src="{{ $produto->image }}" alt="Imagem" class="responsive-img"> 
     </div>
 
     <div class="col s12 m6">
-        <h1> {{ $produto->name }} </h1>
+        <h4> {{ $produto->name }} </h4>
+        <h4> R${{ number_format($produto->price, 2, ",", ".") }} </h4>
         <p> {{ $produto->description }} </p>
         <p> 
             Postado por: {{ $produto->user->first_name }}
