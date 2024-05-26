@@ -312,6 +312,9 @@ Lista de Aulas
 
 # 57 - Ajustes finais no carrinho de compras (CONCLUIDO)
 
+# 58 - Autenticação simples ()
+
+    $ php artisan make:controller LoginController
 
 
 
@@ -321,7 +324,6 @@ Lista de Aulas
 
 
 
-# 58 - ()
 # 59 - ()
 
 # 60 - ()
