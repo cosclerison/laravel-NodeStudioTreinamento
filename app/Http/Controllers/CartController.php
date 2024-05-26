@@ -24,5 +24,9 @@ class CartController extends Controller
                 'image'  => $request->image
             )
         ]);
+
+        return redirect()
+                ->route('site.carrinho')
+                ->with('sucesso', 'produto adicionado no carrinho com sucesso!');
     }
 }

@@ -16,14 +16,24 @@
 
     <nav class="red">
         <div class="nav-wrapper container">
-          <a href="/" class="brand-logo center">CursoLaravel</a>
+          <a href="/" class="brand-logo right">CursoLaravel</a>
           <ul id="nav-mobile" class="left">
             <li><a href="{{ route('site.index') }}">Home</a></li>
             <li>
               <a href="" class="dropdown-trigger" data-target="dropdown1">
                 Categoria<i class="material-icons right">expand_more</i>
               </a></li>
-            <li><a href="{{ route('site.carrinho') }}">Carrinho</a></li>
+            <li>
+              <a href="{{ route('site.carrinho') }}">
+                Carrinhos
+                @if(Cart::getContent()->count() != 0)
+                  <strong>
+                    <span class="new bagde light-blue circle" data-badge-caption="">
+                      ( {{ Cart::getContent()->count() }} )
+                    </span>
+                  </strong>
+                @endif
+              </a></li>
           </ul>
         </div>
     </nav>

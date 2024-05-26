@@ -6,6 +6,17 @@
 
 <div class="row container">
 
+  @if($message = Session::get('sucesso'))
+    <div class="card green darken-1">
+      <div class="card-content white-text">
+        <span class="card-title">parabéns!</span>
+        <p>
+          {{ $message }}
+        </p>
+      </div>
+    </div>
+  @endif
+
   <h3>Meu Carrinho 
     {{ 
       $itens->count() != 0 

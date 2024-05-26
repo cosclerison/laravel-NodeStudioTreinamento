@@ -300,12 +300,12 @@ Lista de Aulas
 
 # 51 - Adicionando itens no carrinho (CONCLUIDO)
 
-# 52 - Estilizando carrinho e exibindo itens ()
+# 52 - Estilizando carrinho e exibindo itens (CONCLUIDO)
+
+# 53 - RedirectWith (CONCLUIDO)
 
 
 
-
-# 53 - ()
 # 54 - ()
 # 55 - ()
 # 56 - ()
