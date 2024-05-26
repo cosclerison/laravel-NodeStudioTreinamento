@@ -308,6 +308,7 @@ Lista de Aulas
 
 # 55 - Atualizando itens do carrinho (CONCLUIDO)
 
+# 56 - Limpando carrinho (CONCLUIDO)
 
 
 
@@ -315,7 +316,6 @@ Lista de Aulas
 
 
 
-# 56 - ()
 # 57 - ()
 # 58 - ()
 # 59 - ()

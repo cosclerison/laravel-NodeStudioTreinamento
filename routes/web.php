@@ -18,3 +18,4 @@ Route::get('/carrinho', [CartController::class, 'cartList'])->name('site.carrinh
 Route::post('/carrinho', [CartController::class, 'addCart'])->name('site.carrinho');
 Route::post('/remover', [CartController::class, 'deleteCart'])->name('site.deletecarrinho');
 Route::post('/atualizar', [CartController::class, 'updateCart'])->name('site.atualizacarrinho');
+Route::get('/limpar', [CartController::class, 'clearCart'])->name('site.limpacarrinho');

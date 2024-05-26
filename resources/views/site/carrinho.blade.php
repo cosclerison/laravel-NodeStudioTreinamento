@@ -17,10 +17,20 @@
     </div>
   @endif
 
+  @if($message = Session::get('aviso'))
+  <div class="card dark-blue darken-1">
+    <div class="card-content white-text">
+      <span class="card-title">Carrinho vazio!</span>
+      <p>
+        {{ $message }}
+      </p>
+    </div>
+  </div>
+@endif
+
   <h3>Meu Carrinho 
     {{ 
-      $itens->count() != 0 
-      ? 'tem ' . $itens->count() . ' produtos' 
+      $itens->count() != 0 ? 'tem ' . $itens->count() . ' produtos' 
       : 'está vazio!'
     }}
   </h3>
@@ -88,12 +98,12 @@
 
       <div class="row container center">
         <button class="btn waves-effect waves-light blue">
-          Continuar comprando <i class="material-icons right">arrow-back</i>
+          Continuar comprando<i class="material-icons right">arrow_back</i>
         </button>
-        <button class="btn waves-effect waves-light yellow">
+        <a href="{{ route('site.limpacarrinho') }}" class="btn waves-effect waves-light dark-blue">
           Limpar Carrinho
           <i class="material-icons right">clear</i>
-        </button>
+        </a>
         <button class="btn waves-effect waves-light green">
           Finalizar pedido
           <i class="material-icons right">check</i>
