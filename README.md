@@ -325,7 +325,7 @@ Lista de Aulas
             });
     </script>
    
-# 48 - 
+# 48 - Listar produtos de uma categoria
     www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=48
     
 # 49 - 

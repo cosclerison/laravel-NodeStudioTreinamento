@@ -21,5 +21,12 @@ class SiteController extends Controller
         $produto = Produto::where('slug', $slug)->first();
 
         return view('site.details', compact('produto'));
+    }   
+    
+    public function category($id)
+    {
+        $produtos = Produto::where('id_category', $id)->paginate(3);
+
+        return view('site.category', compact('produtos'));
     }
 }

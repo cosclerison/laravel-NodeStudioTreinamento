@@ -32,7 +32,7 @@
     <!-- Dropdown Structure -->
     <ul id='dropdown1' class='dropdown-content'>
       @foreach($categoryMenu as $category)
-        <li><a href="#!">{{ $category->name }}</a></li>
+        <li><a href="{{ route('site.category', $category->id) }}">{{ $category->name }}</a></li>
       @endforeach
       
     </ul>
