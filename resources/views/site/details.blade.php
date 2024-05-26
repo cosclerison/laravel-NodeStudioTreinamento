@@ -20,7 +20,23 @@
         </br>
             Categoria: {{ $produto->category->name }}
         </p>
-        <button class="btn orange btn-large" disabled="disabled"> Comprar </button>
+
+        <form action="{{ route('site.addCart') }}" method="POST">
+            {{-- 
+                O que é CSRF (Cross-Site Request Forgery)?
+                CSRF, também conhecido como ataque de falsificação de solicitações entre sites, explora a confiança que os aplicativos web depositam em seus usuários autenticados.
+            --}}
+            @csrf
+            <input type="hidden" name="id" value="{{ $produto->id }}">
+            <input type="hidden" name="name" value="{{ $produto->name }}">
+            <input type="hidden" name="price" value="{{ $produto->price }}">
+            <input type="hidden" name="image" value="{{ $produto->image }}">
+            <input type="number" name="qtd" value="1">
+
+            <button class="btn orange btn-large"> Comprar </button>
+            
+        </form>
+
     </div>
 
 </div>

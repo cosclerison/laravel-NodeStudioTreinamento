@@ -298,14 +298,13 @@ Lista de Aulas
         Optional configuration file (useful if you plan to have full control)
             php artisan vendor:publish --provider="Darryldecode\Cart\CartServiceProvider" --tag="config"
 
+# 51 - Adicionando itens no carrinho ()
 
 
 
 
 
 
-
-# 51 - ()
 # 52 - ()
 # 53 - ()
 # 54 - ()
