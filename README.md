@@ -310,13 +310,17 @@ Lista de Aulas
 
 # 56 - Limpando carrinho (CONCLUIDO)
 
+# 57 - Ajustes finais no carrinho de compras (CONCLUIDO)
 
 
 
 
 
 
-# 57 - ()
+
+
+
+
 # 58 - ()
 # 59 - ()
 

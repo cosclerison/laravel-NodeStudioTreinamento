@@ -31,7 +31,7 @@
             <input type="hidden" name="name" value="{{ $produto->name }}">
             <input type="hidden" name="price" value="{{ $produto->price }}">
             <input type="hidden" name="image" value="{{ $produto->image }}">
-            <input type="number" name="quantity" value="1">
+            <input type="number" name="quantity" min="1" value="1">
 
             <button class="btn orange btn-large"> Comprar </button>
 
