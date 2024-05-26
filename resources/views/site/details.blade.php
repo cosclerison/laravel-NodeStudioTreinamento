@@ -14,7 +14,8 @@
         <h1> {{ $produto->name }} </h1>
         <p> {{ $produto->description }} </p>
         <p> 
-            Postado por: {{ $produto->user->first_name }} </br>
+            Postado por: {{ $produto->user->first_name }}
+        </br>
             Categoria: {{ $produto->category->name }}
         </p>
         <button class="btn orange btn-large" disabled="disabled"> Comprar </button>

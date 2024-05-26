@@ -19,10 +19,23 @@
           <a href="/" class="brand-logo center">CursoLaravel</a>
           <ul id="nav-mobile" class="left">
             <li><a href="sass.html">Home</a></li>
+            <li>
+              <a href="" class="dropdown-trigger" data-target="dropdown1">
+                Categoria<i class="material-icons right">expand_more</i>
+              </a></li>
             <li><a href="badges.html">Carrinho</a></li>
           </ul>
         </div>
     </nav>
+
+
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+      @foreach($categoryMenu as $category)
+        <li><a href="#!">{{ $category->name }}</a></li>
+      @endforeach
+      
+    </ul>
 
     <!-- incorporando um conteudo -->
     @yield('content')
@@ -30,6 +43,30 @@
     {{-- @stack('script') --}}
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      // Modo 001
+      // document.addEventListener('DOMContentLoaded', function() {
+      //     var elems = document.querySelectorAll('.dropdown-trigger');
+          
+      //     // Definindo a variável options
+      //     var options = {
+      //         // Adicione as opções desejadas aqui
+      //         // Por exemplo: alignment: 'right', coverTrigger: false, etc.
+      //         alignment: 'left',  // Exemplo de opção
+      //         coverTrigger: false // Outro exemplo de opção
+      //     };
+          
+      //     var instances = M.Dropdown.init(elems, options);
+      // });
+
+      // Modo 02 (Disponibilizado por outro estudante)
+      var elemDrop = document.querySelectorAll('.dropdown-trigger');
+      var instanceDrop = M.Dropdown.init(elemDrop, {
+                coverTrigger:false,
+                constrainWidth:false 
+      });
+
+    </script>
     
 </body>
 </html>

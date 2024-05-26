@@ -20,7 +20,7 @@ class Produto extends Model
     
     public function category()
     {
-        // Este pertence a (User) com a chave estrangeira id_user
+        // Este pertence a (Category) com a chave estrangeira id_category
         return $this->belongsTo(Category::class, 'id_category');
     }
 

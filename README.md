@@ -1,5 +1,6 @@
 ## Curso de PHP Framework Laravel
 
+
 # Canal Node Studio Treinamento
 
 Lista de Aulas
@@ -18,6 +19,10 @@ Lista de Aulas
 
 # 05 - Estrutura de Pastas
     www.youtube.com/watch?v=QU9ygaoz5jQ&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=5
+
+    Configurações Iniciais importantes
+    Iniserindo permissão da pasta Views evita erros futuros nas proximas aulas seguintes
+    $ chmod -R 755 resources/views
 
 # 06 - PHP Artisan
     www.youtube.com/watch?v=3HKsp5cjqus&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=6
@@ -293,9 +298,33 @@ Lista de Aulas
 # 46 - OneToMany Inverse / belongsTo
     www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=46
     
-# 47 - 
+# 47 - Categorias dinâmicas com viewShare
     www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=47
-    
+
+    OBS: Script correto, no site esta faltando declarar a variavel "options"
+    <script>
+        // Modo 001
+            // document.addEventListener('DOMContentLoaded', function() {
+            //     var elems = document.querySelectorAll('.dropdown-trigger');
+
+            //     // Definindo a variável options
+            //     var options = {
+            //         // Adicione as opções desejadas aqui
+            //         // Por exemplo: alignment: 'right', coverTrigger: false, etc.
+            //         alignment: 'left',  // Exemplo de opção
+            //         coverTrigger: false // Outro exemplo de opção
+            //     };
+            //     var instances = M.Dropdown.init(elems, options);
+            // });
+
+        // Modo 02 (Disponibilizado por outro estudante)
+            var elemDrop = document.querySelectorAll('.dropdown-trigger');
+            var instanceDrop = M.Dropdown.init(elemDrop, {
+                    coverTrigger:false,
+                    constrainWidth:false 
+            });
+    </script>
+   
 # 48 - 
     www.youtube.com/watch?v=8R-jluuasvM&list=PLwXQLZ3FdTVH5Tb57_-ll_r0VhNz9RrXb&index=48
     
