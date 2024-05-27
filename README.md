@@ -19,7 +19,7 @@ Lista de Aulas
     Iniserindo permissão da pasta Views evita erros futuros nas proximas aulas seguintes
     $ chmod -R 755 resources/views
 
-# 06 - PHP Artisan (CONCLUIDO)
+## 06 - PHP Artisan (CONCLUIDO)
 
     Iniciando servidor usando artisan
     $ php artisan serve
@@ -27,13 +27,13 @@ Lista de Aulas
     Mudando porta do servidor
     $ php artisan serve --port=8001
 
-# 07 - MVC (CONCLUIDO)
+## 07 - MVC (CONCLUIDO)
 
     MODEL - VIEW - CONTROLLER
 
-# 08 - Introdução as Rotas (CONCLUIDO)
+## 08 - Introdução as Rotas (CONCLUIDO)
 
-# 09 - Rotas Any e Match (CONCLUIDO)
+## 09 - Rotas Any e Match (CONCLUIDO)
 
     Route::get('/company', function() {
         return view('site/company');
@@ -50,29 +50,29 @@ Lista de Aulas
         return "Permite apenas acessos definidos";
     });
 
-# 10 - Passagem de Parâmetros (CONCLUIDO)
+## 10 - Passagem de Parâmetros (CONCLUIDO)
 
-# 11 - Redirect e View (CONCLUIDO)
+## 11 - Redirect e View (CONCLUIDO)
 
-# 12 - Rotas nomeadas (CONCLUIDO)
+## 12 - Rotas nomeadas (CONCLUIDO)
 
-# 13 - Grupo de Rotas (CONCLUIDO)
+## 13 - Grupo de Rotas (CONCLUIDO)
 
-# 14 - Controllers (CONCLUIDO)
+## 14 - Controllers (CONCLUIDO)
 
     $ php artisan make:controller ProdutoController
 
-# 15 - Passando Parâmetros Para o Controller (CONCLUIDO)
+## 15 - Passando Parâmetros Para o Controller (CONCLUIDO)
 
 
-# 16 - Resource (CONCLUIDO)
+## 16 - Resource (CONCLUIDO)
 
     $ php artisan make:controller ProdutoController --resource
 
     <!-- Mostra uma lista com todas rotas -->
     $ php artisan route:list
 
-# 17 - Route list, cache e clear (CONCLUIDO)
+## 17 - Route list, cache e clear (CONCLUIDO)
 
     <!-- Mostra uma lista com todas rotas -->
     $ php artisan route:list
@@ -83,9 +83,9 @@ Lista de Aulas
     <!-- Mostra uma lista com todas rotas -->
     $ php artisan route:clear
 
-# 18 - Configurando o Banco de Dados (CONCLUIDO)
+## 18 - Configurando o Banco de Dados (CONCLUIDO)
 
-# 19 - Entendendo os Migrations (CONCLUIDO)
+## 19 - Entendendo os Migrations (CONCLUIDO)
 
     <!-- Executa os migrates que existem na pasta de migraations -->
     $ php artisan migrate
@@ -96,14 +96,14 @@ Lista de Aulas
     <!-- Mostra o status das migrations -->
     $ php artisan migrate:status
 
-# 20 - Criando os Migrations (CONCLUIDO)
+## 20 - Criando os Migrations (CONCLUIDO)
 
     <!-- script para criar uma migrations -->
     <!-- Cria coluna produtos na tabela -->
     $ php artisan make:migration create_produtos_table
     $ php artisan make:migration products --create="nome da tabela"
 
-# 21 - Editando e Excluindo tabelas (CONCLUIDO)
+## 21 - Editando e Excluindo tabelas (CONCLUIDO)
 
     <!-- alterar nome de uma tabela -->
     Schema::rename('produtos', 'produto');
@@ -111,7 +111,7 @@ Lista de Aulas
     <!-- Excluir uma Tabela -->
     Schema::dropIfExists('produtos');
 
-# 22 - Reset, Refresh e Fresh (CONCLUIDO)
+## 22 - Reset, Refresh e Fresh (CONCLUIDO)
 
     <!-- Executando o reset ele apaga todas migrations do banco de dados -->
     < OBS > nunca faça isso em produção á não ser que saiba exatamente o que esta fazendo
@@ -123,13 +123,13 @@ Lista de Aulas
     <!-- Executa o fresh ele é o mais hard core exclui todas tabelas e executa o reset -->
     $ php artisan migrate:fresh
 
-# 23 - Modificando Colunas (CONCLUIDO)
+## 23 - Modificando Colunas (CONCLUIDO)
 
     Existe um pré requisito para executar esta tarefa de modificação de tabelas utilizando o composer
 
     $ composer require doctrine/dbal
 
-# 24 - Entendendo os Models (CONCLUIDO)
+## 24 - Entendendo os Models (CONCLUIDO)
 
     <!-- Criando Model -->
     $ php artisan make:model Produto
@@ -138,7 +138,7 @@ Lista de Aulas
 
     Exemplo: $produtos = Product::all();
 
-# 25 - Criando tabelas Users, Categorias e Produtos (CONCLUIDO)
+## 25 - Criando tabelas Users, Categorias e Produtos (CONCLUIDO)
 
     <!-- Criando model and migration -->
     $ php artisan make:model category --migration
@@ -153,7 +153,7 @@ Lista de Aulas
     
     php artisan migrate:fresh
 
-# 26 - Seeder (CONCLUIDO)
+## 26 - Seeder (CONCLUIDO)
 
     <!-- Criando Seeder para agilizar no processo de popular a tabela do banco de dados -->
     $ php artisan make:seeder  UsersSeeder
@@ -161,12 +161,12 @@ Lista de Aulas
     <!-- Para executar o seeder -->
     $ php artisan db:seed
 
-# 27 - Factory (CONCLUIDO)
+## 27 - Factory (CONCLUIDO)
 
     <!-- Criando Factory para automatizar a criação de categorias -->
     $ php artisan make:factory CategoryFactory
 
-# 28 - mfscr (CONCLUIDO)
+## 28 - mfscr (CONCLUIDO)
 
     <!-- Utilizando metodos simplificados de criar as estruturas -->
     $ php artisan make:teste --migration --factory --seed --controller --resource
@@ -175,27 +175,27 @@ Lista de Aulas
     OU
     $ php artisan make:teste -mfscr
 
-# 29 - Factory Produtos e StrSlug (CONCLUIDO)
+## 29 - Factory Produtos e StrSlug (CONCLUIDO)
 
-# 30 - Relacionamentos (CONCLUIDO)
+## 30 - Relacionamentos (CONCLUIDO)
 
-# 31 - Introdução as views (CONCLUIDO)
+## 31 - Introdução as views (CONCLUIDO)
 
-# 32 - Section, Yield e Extends (CONCLUIDO)
+## 32 - Section, Yield e Extends (CONCLUIDO)
 
-# 33 - Laravel Snippers (CONCLUIDO)
+## 33 - Laravel Snippers (CONCLUIDO)
 
-# 34 - Comentários e Operador Ternário (CONCLUIDO)
+## 34 - Comentários e Operador Ternário (CONCLUIDO)
 
-# 35 - Customizando views de erro (CONCLUIDO)
+## 35 - Customizando views de erro (CONCLUIDO)
 
-# 36 - Estruturas de controle (CONCLUIDO)
+## 36 - Estruturas de controle (CONCLUIDO)
 
-# 37 - Estruturas de repetição (CONCLUIDO)
+## 37 - Estruturas de repetição (CONCLUIDO)
 
-# 38 - Include e Component (CONCLUIDO)
+## 38 - Include e Component (CONCLUIDO)
 
-# 39 - Stacks e Push (CONCLUIDO)
+## 39 - Stacks e Push (CONCLUIDO)
 
     Materialize https://materializecss.com/
     
@@ -207,7 +207,7 @@ Lista de Aulas
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
             
-# 40 - Viewcache e Viewclear (CONCLUIDO)
+## 40 - Viewcache e Viewclear (CONCLUIDO)
 
     <!-- Coloca todas views em cache -->
     $php artisan view:cache
@@ -215,20 +215,20 @@ Lista de Aulas
     <!-- Limpa todas views da cache -->
     $php artisan view:clear
 
-# 41 - Implementando Materialize CSS and ICON (CONCLUIDO)
+## 41 - Implementando Materialize CSS and ICON (CONCLUIDO)
 
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <!-- Compiled ICON -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-# 42 - Listagem de produtos na home (CONCLUIDO)
+## 42 - Listagem de produtos na home (CONCLUIDO)
 
-# 43 - Paginação de Resultados (CONCLUIDO)
+## 43 - Paginação de Resultados (CONCLUIDO)
 
     OBS: Professor não disponibilizou o codigo utilizado na paginação
 
-# 44 - Criando o SiteController (CONCLUIDO)
+## 44 - Criando o SiteController (CONCLUIDO)
 
     OBS: Nesta aula encontrei um erro complicado, no erro ele não deixava alterar a rota da view
     forçando usar welcome.blade.php. ao invez de usar view/site/home.blade.php
@@ -248,11 +248,11 @@ Lista de Aulas
     Certifique-se de que a rota está corretamente configurada e não há nenhum conflito. O seu arquivo web.php deve estar configurado corretamente:
     Route::get('/', [SiteController::class, 'index'])->name('site.index');
 
-# 45 - Listagem de único produto (CONCLUIDO)
+## 45 - Listagem de único produto (CONCLUIDO)
  
-# 46 - OneToMany Inverse / belongsTo (CONCLUIDO)
+## 46 - OneToMany Inverse / belongsTo (CONCLUIDO)
     
-# 47 - Categorias dinâmicas com viewShare (CONCLUIDO)
+## 47 - Categorias dinâmicas com viewShare (CONCLUIDO)
 
     OBS: Script correto, no site esta faltando declarar a variavel "options"
     <script>
@@ -278,11 +278,11 @@ Lista de Aulas
             });
     </script>
    
-# 48 - Listar produtos de uma categoria (CONCLUIDO)
+## 48 - Listar produtos de uma categoria (CONCLUIDO)
     
-# 49 - Mostrar nome da categoria e preço numberFormat (CONCLUIDO)
+## 49 - Mostrar nome da categoria e preço numberFormat (CONCLUIDO)
     
-# 50 - Carrinho de compras com darryldecode/cart (CONCLUIDO)
+## 50 - Carrinho de compras com darryldecode/cart (CONCLUIDO)
     https://github.com/darryldecode/laravelshoppingcart
 
     INSTALLATION
@@ -298,43 +298,44 @@ Lista de Aulas
         Optional configuration file (useful if you plan to have full control)
             php artisan vendor:publish --provider="Darryldecode\Cart\CartServiceProvider" --tag="config"
 
-# 51 - Adicionando itens no carrinho (CONCLUIDO)
+## 51 - Adicionando itens no carrinho (CONCLUIDO)
 
-# 52 - Estilizando carrinho e exibindo itens (CONCLUIDO)
+## 52 - Estilizando carrinho e exibindo itens (CONCLUIDO)
 
-# 53 - RedirectWith (CONCLUIDO)
+## 53 - RedirectWith (CONCLUIDO)
 
-# 54 - Removendo itens do carrinho (CONCLUIDO)
+## 54 - Removendo itens do carrinho (CONCLUIDO)
 
-# 55 - Atualizando itens do carrinho (CONCLUIDO)
+## 55 - Atualizando itens do carrinho (CONCLUIDO)
 
-# 56 - Limpando carrinho (CONCLUIDO)
+## 56 - Limpando carrinho (CONCLUIDO)
 
-# 57 - Ajustes finais no carrinho de compras (CONCLUIDO)
+## 57 - Ajustes finais no carrinho de compras (CONCLUIDO)
 
-# 58 - Autenticação simples ()
+## 58 - Autenticação simples ()
 
     $ php artisan make:controller LoginController
 
-# 59 - Validações (CONCLUIDO)
+## 59 - Validações (CONCLUIDO)
     OBS: Nesta aula foi necessario excluir o usuario e executar o seeder novamente
     $ php artisan db:seed
 
-# 60 - Redirecionando para o dashboard (CONCLUIDO)
+## 60 - Redirecionando para o dashboard (CONCLUIDO)
 
-# 61 - Exibindo dados do usuário logado (CONCLUIDO)
+## 61 - Exibindo dados do usuário logado (CONCLUIDO)
 
-# 62 - Logout (CONCLUIDO)
+## 62 - Logout (CONCLUIDO)
 
-# 63 - Middlewares (CONCLUIDO)
+## 63 - Middlewares (CONCLUIDO)
 
     Filtro de requisição HTTP
 
-# 64 - Criando os middlewares (CONCLUIDO)
+## 64 - Criando os middlewares (CONCLUIDO)
 
     Criando middleware
     $ php artisan make:middleware CheckEmail
 
+## 65 - ()
 
 
 
@@ -343,33 +344,32 @@ Lista de Aulas
 
 
 
-# 65 - ()
-# 66 - ()
-# 67 - ()
-# 68 - ()
-# 69 - ()
+## 66 - ()
+## 67 - ()
+## 68 - ()
+## 69 - ()
 
-# 70 - ()
-# 71 - ()
-# 72 - ()
-# 73 - ()
-# 74 - ()
-# 75 - ()
-# 76 - ()
-# 77 - ()
-# 78 - ()
-# 79 - ()
+## 70 - ()
+## 71 - ()
+## 72 - ()
+## 73 - ()
+## 74 - ()
+## 75 - ()
+## 76 - ()
+## 77 - ()
+## 78 - ()
+## 79 - ()
 
-# 80 - ()
-# 81 - ()
-# 82 - ()
-# 83 - ()
-# 84 - ()
-# 85 - ()
-# 86 - ()
-# 87 - ()
-# 88 - ()
-# 89 - ()
+## 80 - ()
+## 81 - ()
+## 82 - ()
+## 83 - ()
+## 84 - ()
+## 85 - ()
+## 86 - ()
+## 87 - ()
+## 88 - ()
+## 89 - ()
 
 # 90 - ()
 # 91 - ()
