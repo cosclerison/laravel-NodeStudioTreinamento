@@ -48,12 +48,13 @@ class DashboardController extends Controller
 
         
         // Gráfico 1 - Usuários
-        $categoryData = Category::all();
+        $categoryData = Category::with('produtos')->get();
         
         // Preparando array
         foreach ($categoryData as $category) {
             $catName[]  = "'" . $category->name . "'";
-            $catTotal[] = Produto::where('id_category', $category->id)->count();
+            $catTotal[] = $category->produtos->count();
+            // $catTotal[] = Produto::where('id_category', $category->id)->count();
         }
         
         // Formatar dados nas variaveis para enviar para o frontend

@@ -388,11 +388,12 @@ Lista de Aulas
     Material da aula o mesmo esta arquivado dentro do projeto na pasta "/resources/assets"
     https://drive.google.com/file/d/1VZQD9MBPiS_j7H9A1jQPQ68F9WOPFJvY/view?usp=sharing
 
-## 72 - Gráficos com dados dinâmicos ()
+## 72 - Gráficos com dados dinâmicos (CONCLUIDO)
 
     Graficos utilizados
     https://www.chartjs.org/
 
+## 73 - hasMany (CONCLUIDO)
 
 
 
@@ -404,7 +405,6 @@ Lista de Aulas
 
 
 
-## 73 - ()
 ## 74 - ()
 ## 75 - ()
 ## 76 - ()

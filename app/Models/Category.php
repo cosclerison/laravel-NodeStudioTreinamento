@@ -13,4 +13,10 @@ class Category extends Model
     protected $table = 'categoryes';  // Especifica a tabela 'categoryes'
 
     protected $fillable = ['name', 'description'];
+
+    public function produtos()
+    {
+        // Uma categoria pode possuir muitos produtos
+        return $this->hasMany(Produto::class, 'id_category', 'id');
+    }
 }
