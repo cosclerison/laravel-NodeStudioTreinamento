@@ -21,7 +21,7 @@ class LoginController extends Controller
     
 
         // Vai verificar se as credenciais existem no banco de dados
-        if (Auth::attempt($credentials)) {
+        if (Auth::attempt($credentials, $request->remember)) {
             // Adiciona um log ou dd para verificar as credenciais
             // dd($credentials);
             Log::info('Credenciais corretas', ['credentials' => $credentials]);
