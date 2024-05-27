@@ -12,7 +12,35 @@
             <div class="card">
                 <div class="card-image">
                     <img src="{{ $produto->image }}">
-                    <a href="{{ route('site.details', $produto->slug) }}" class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">visibility</i></a>
+
+                    {{-- Modo 01 de fazer esta validação para apresentar o conteudo --}}
+                    @can('verProduto', $produto)
+                        <a 
+                            href="{{ route('site.details', $produto->slug) }}" 
+                            class="btn-floating halfway-fab waves-effect waves-light red">
+                            <i class="material-icons">visibility</i>
+                        </a>
+                    @else
+                        <a 
+                            class="btn-floating halfway-fab waves-effect waves-light red" disabled="disabled">
+                            <i class="material-icons">visibility</i>
+                        </a>
+                    @endcan
+
+                    {{-- Modo 02 de fazer esta validação para apresentar o conteudo de forma inversa do @can() --}}
+                    {{-- @cannot('verProduto', $produto)
+                        <a 
+                            class="btn-floating halfway-fab waves-effect waves-light red" disabled="disabled">
+                            <i class="material-icons">visibility</i>
+                        </a>
+                    @else
+                        <a 
+                            href="{{ route('site.details', $produto->slug) }}" 
+                            class="btn-floating halfway-fab waves-effect waves-light red">
+                            <i class="material-icons">visibility</i>
+                        </a>
+                    @endcannot --}}
+
                 </div>
                 <div class="card-content">
                     <span class="card-title">{{ Str::limit($produto->name, 10, '...' )}}</span>

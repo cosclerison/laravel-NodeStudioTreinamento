@@ -341,16 +341,19 @@ Lista de Aulas
 
 ## 67 - Autorização com Gates (CONCLUIDO)
 
-## 68 - Autorização com Policies ()
+## 68 - Autorização com Policies (CONCLUIDO)
 
     Criando policy
     $ php artisan make:policy ProdutoPolicy
 
+## 69 - Restringindo recurso na view com Can e Cannot (CONCLUIDO)
 
 
 
 
-## 69 - ()
+
+
+
 
 ## 70 - ()
 ## 71 - ()
