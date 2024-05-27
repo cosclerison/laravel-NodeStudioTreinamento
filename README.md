@@ -402,6 +402,7 @@ Lista de Aulas
 
 ## 75 - Listagem de produtos (CONCLUIDO)
 
+## 76 - Paginação de produtos (CONCLUIDO)
 
 
 
@@ -409,7 +410,6 @@ Lista de Aulas
 
 
 
-## 76 - ()
 ## 77 - ()
 ## 78 - ()
 ## 79 - ()
