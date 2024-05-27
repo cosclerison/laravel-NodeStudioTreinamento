@@ -31,7 +31,7 @@ class LoginController extends Controller
             /**
              * Direciona o usuario para pagina atual antes de ser solicitado o login
              */
-            return redirect()->intended('dashboard');
+            return redirect()->intended('/admin/dashboard');
         } else {
             Log::warning('Credenciais inválidas', ['credentials' => $credentials]);
             return redirect()->back()->with("erro", "Usuário ou senha inválida!!!");
