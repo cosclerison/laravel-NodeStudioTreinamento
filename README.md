@@ -341,12 +341,15 @@ Lista de Aulas
 
 ## 67 - Autorização com Gates (CONCLUIDO)
 
+## 68 - Autorização com Policies ()
+
+    Criando policy
+    $ php artisan make:policy ProdutoPolicy
 
 
 
 
 
-## 68 - ()
 ## 69 - ()
 
 ## 70 - ()

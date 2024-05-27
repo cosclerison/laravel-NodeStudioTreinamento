@@ -21,7 +21,11 @@ class SiteController extends Controller
     {
         $produto = Produto::where('slug', $slug)->first();
 
-        Gate::authorize('ver-produto', $produto);
+        // Modo 01 com Providers usando GATE
+        // Gate::authorize('ver-produto', $produto);
+
+        // Modo 02 com Providers usando POLICY
+        $this->authorize('verProduto', $produto);
 
         return view('site.details', compact('produto'));
     }   
