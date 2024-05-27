@@ -15,12 +15,12 @@
 <body>
 
     <nav class="red">
-        <div class="nav-wrapper container">
-          <a href="/" class="brand-logo right">CursoLaravel</a>
+        <div class="nav-wrapper container justify-content-around">
+          <a href="/" class="brand-logo center">CursoLaravel</a>
           <ul id="nav-mobile" class="left">
             <li><a href="{{ route('site.index') }}">Home</a></li>
             <li>
-              <a href="" class="dropdown-trigger" data-target="dropdown1">
+              <a href="" class="dropdown-trigger" data-target="dropdown-categoria">
                 Categoria<i class="material-icons right">expand_more</i>
               </a></li>
             <li>
@@ -35,16 +35,29 @@
                 @endif
               </a></li>
           </ul>
+          
+          <ul id="nav-mobile" class="right">
+            <li>
+              <a href="" class="dropdown-trigger" data-target="dropdown-auth">
+                Olá {{ auth()->user()->first_name }}<i class="material-icons right">expand_more</i>
+              </a></li>
+            <li>
+          </ul>
+
         </div>
     </nav>
 
 
-    <!-- Dropdown Structure -->
-    <ul id='dropdown1' class='dropdown-content'>
+    <!-- Dropdown Structure Catergoria-->
+    <ul id='dropdown-categoria' class='dropdown-content'>
       @foreach($categoryMenu as $category)
         <li><a href="{{ route('site.category', $category->id) }}">{{ $category->name }}</a></li>
       @endforeach
-      
+    </ul> 
+    
+    <!-- Dropdown Structure Auth-->
+    <ul id='dropdown-auth' class='dropdown-content'>
+        <li><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
     </ul>
 
     <!-- incorporando um conteudo -->

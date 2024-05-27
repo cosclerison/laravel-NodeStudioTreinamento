@@ -320,7 +320,9 @@ Lista de Aulas
     OBS: Nesta aula foi necessario excluir o usuario e executar o seeder novamente
     $ php artisan db:seed
 
-# 60 - Redirecionando para o dashboard ()
+# 60 - Redirecionando para o dashboard (CONCLUIDO)
+
+# 61 - Exibindo dados do usuário logado ()
 
 
 
@@ -333,8 +335,6 @@ Lista de Aulas
 
 
 
-
-# 61 - ()
 # 62 - ()
 # 63 - ()
 # 64 - ()
