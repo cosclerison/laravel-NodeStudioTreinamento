@@ -330,6 +330,10 @@ Lista de Aulas
 
     Filtro de requisição HTTP
 
+# 64 - Criando os middlewares (CONCLUIDO)
+
+    Criando middleware
+    $ php artisan make:middleware CheckEmail
 
 
 
@@ -339,7 +343,6 @@ Lista de Aulas
 
 
 
-# 64 - ()
 # 65 - ()
 # 66 - ()
 # 67 - ()
