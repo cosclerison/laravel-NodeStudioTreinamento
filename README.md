@@ -395,6 +395,10 @@ Lista de Aulas
 
 ## 73 - hasMany (CONCLUIDO)
 
+    Material da aula o mesmo esta arquivado dentro do projeto na pasta "/resources/assets"
+    https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbEZOaDBTY0hBNUNsTE9DUkxEb2JmNzg4aWhZQXxBQ3Jtc0ttbElVSkp2TlpJODREamh1dWN5WmdUdS1EcFhhclktQXZVWVNQSGtCV1hweGctb3B0dllXZ1Zkdkt0dzFBZlExd3Z0Y3N3b1VpUm13QXpINU83Y28zanRpNEN0VmdxS0UyNjZaTzdYYmdUZ0FZM3ZsVQ&q=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1VZQD9MBPiS_j7H9A1jQPQ68F9WOPFJvY%2Fview%3Fusp%3Dsharing
+
+## 74 - Página de produtos (CONCLUIDO)
 
 
 
@@ -404,8 +408,6 @@ Lista de Aulas
 
 
 
-
-## 74 - ()
 ## 75 - ()
 ## 76 - ()
 ## 77 - ()
