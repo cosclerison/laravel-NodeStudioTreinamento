@@ -1,19 +1,19 @@
-## Curso de PHP Framework Laravel
+# Curso de PHP Framework Laravel
 
 
 # Canal Node Studio Treinamento
 
 Lista de Aulas
 
-# 01 - Introdução e Ambiente PHP (CONCLUIDO)
+## 01 - Introdução e Ambiente PHP (CONCLUIDO)
 
-# 02 - Sobre o Laragon (CONCLUIDO)
+## 02 - Sobre o Laragon (CONCLUIDO)
 
-# 03 - Instalando o PHP8 no Laragon (CONCLUIDO)
+## 03 - Instalando o PHP8 no Laragon (CONCLUIDO)
 
-# 04 - Instalação, Composer e Virtual Host (Laragon) (CONCLUIDO)
+## 04 - Instalação, Composer e Virtual Host (Laragon) (CONCLUIDO)
 
-# 05 - Estrutura de Pastas (CONCLUIDO)
+## 05 - Estrutura de Pastas (CONCLUIDO)
 
     Configurações Iniciais importantes
     Iniserindo permissão da pasta Views evita erros futuros nas proximas aulas seguintes
