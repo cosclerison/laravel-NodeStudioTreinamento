@@ -363,8 +363,8 @@ Lista de Aulas
 ## 75 - Listagem de produtos (CONCLUIDO)
 ## 76 - Paginação de produtos (CONCLUIDO)
 ## 77 - Modal para criação e exclusão de produto (CONCLUIDO)
-## 78 - ()
-## 79 - ()
+## 78 - Mensagem de retorno (CONCLUIDO)
+## 79 - Modal de cadastro (CONCLUIDO)
 ## 80 - ()
 
 

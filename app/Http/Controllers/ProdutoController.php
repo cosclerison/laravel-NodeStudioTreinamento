@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Category;
 use Illuminate\Http\Request;
 
 // Podemos utilizar o seu nome natural ou seja original ou utilizar um alias para modifica-lo
@@ -17,8 +18,9 @@ class ProdutoController extends Controller
     public function index() {
         
         $produtos = Product::paginate(4);
+        $categoryes = Category::all();
         
-        return view('admin.products', compact("produtos"));
+        return view('admin.products', compact("produtos", "categoryes"));
         // return view('site.home', ["produtos" => $produtos]);
         // outro modo
         /**

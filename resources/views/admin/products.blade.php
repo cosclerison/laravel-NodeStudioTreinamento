@@ -11,7 +11,7 @@
 </div>
 @include('admin.products.create')
 
-  <div class="row container crud">
+<div class="row container crud">
         
     <div class="row titulo ">              
       <h1 class="left">Produtos</h1>
@@ -33,7 +33,7 @@
     <div class="card z-depth-4 registros" >
       
       @include('admin.includes.message')
-      
+
       <table class="striped ">
         <thead>
           <tr>
