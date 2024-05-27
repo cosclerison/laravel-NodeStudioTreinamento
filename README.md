@@ -324,7 +324,11 @@ Lista de Aulas
 
 # 61 - Exibindo dados do usuário logado (CONCLUIDO)
 
-# 62 - Logout ()
+# 62 - Logout (CONCLUIDO)
+
+# 63 - Middlewares (CONCLUIDO)
+
+    Filtro de requisição HTTP
 
 
 
@@ -335,8 +339,6 @@ Lista de Aulas
 
 
 
-
-# 63 - ()
 # 64 - ()
 # 65 - ()
 # 66 - ()
