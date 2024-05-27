@@ -322,7 +322,9 @@ Lista de Aulas
 
 # 60 - Redirecionando para o dashboard (CONCLUIDO)
 
-# 61 - Exibindo dados do usuário logado ()
+# 61 - Exibindo dados do usuário logado (CONCLUIDO)
+
+# 62 - Logout ()
 
 
 
@@ -334,8 +336,6 @@ Lista de Aulas
 
 
 
-
-# 62 - ()
 # 63 - ()
 # 64 - ()
 # 65 - ()

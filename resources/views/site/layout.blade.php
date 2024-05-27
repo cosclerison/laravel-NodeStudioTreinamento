@@ -36,13 +36,23 @@
               </a></li>
           </ul>
           
-          <ul id="nav-mobile" class="right">
-            <li>
-              <a href="" class="dropdown-trigger" data-target="dropdown-auth">
+          @auth
+            <ul id="nav-mobile" class="right">
+              <li>
+                <a href="" class="dropdown-trigger" data-target="dropdown-auth">
                 Olá {{ auth()->user()->first_name }}<i class="material-icons right">expand_more</i>
-              </a></li>
-            <li>
-          </ul>
+                </a>
+              </li>
+            </ul>
+          @else
+            <ul id="nav-mobile" class="right">
+              <li>
+                <a href="{{ route('login.form') }}">
+                login <i class="material-icons right">lock</i>
+                </a>
+              </li>
+            </ul>
+          @endauth
 
         </div>
     </nav>
@@ -58,6 +68,7 @@
     <!-- Dropdown Structure Auth-->
     <ul id='dropdown-auth' class='dropdown-content'>
         <li><a href="{{ route('admin.dashboard') }}">Dashboard</a></li>
+        <li><a href="{{ route('login.logout') }}">Sair</a></li>
     </ul>
 
     <!-- incorporando um conteudo -->
