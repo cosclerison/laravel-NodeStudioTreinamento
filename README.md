@@ -337,15 +337,15 @@ Lista de Aulas
 
 ## 65 - Register (CONCLUIDO)
 
-## 66 - Remember ()
+## 66 - Remember (CONCLUIDO)
+
+## 67 - Autorização com Gates (CONCLUIDO)
 
 
 
 
 
 
-
-## 67 - ()
 ## 68 - ()
 ## 69 - ()
 
