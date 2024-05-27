@@ -14,7 +14,7 @@
                     <img src="{{ $produto->image }}">
 
                     {{-- Modo 01 de fazer esta validação para apresentar o conteudo --}}
-                    @can('verProduto', $produto)
+                    {{-- @can('verProduto', $produto)
                         <a 
                             href="{{ route('site.details', $produto->slug) }}" 
                             class="btn-floating halfway-fab waves-effect waves-light red">
@@ -25,7 +25,13 @@
                             class="btn-floating halfway-fab waves-effect waves-light red" disabled="disabled">
                             <i class="material-icons">visibility</i>
                         </a>
-                    @endcan
+                    @endcan --}}
+
+                    <a 
+                        href="{{ route('site.details', $produto->slug) }}" 
+                        class="btn-floating halfway-fab waves-effect waves-light red">
+                        <i class="material-icons">visibility</i>
+                    </a>
 
                     {{-- Modo 02 de fazer esta validação para apresentar o conteudo de forma inversa do @can() --}}
                     {{-- @cannot('verProduto', $produto)

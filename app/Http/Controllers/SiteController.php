@@ -25,9 +25,34 @@ class SiteController extends Controller
         // Gate::authorize('ver-produto', $produto);
 
         // Modo 02 com Providers usando POLICY
-        $this->authorize('verProduto', $produto);
+        // $this->authorize('verProduto', $produto);
 
-        return view('site.details', compact('produto'));
+        // Modo 03 RESTRIÇÂO usando CAN dando permissão
+        if (auth()->user()->can('verProduto', $produto)) {
+            return view('site.details', compact('produto'));
+        } else {
+            return redirect()->route('site.index'); // Ou outra lógica de redirecionamento
+        }
+
+        // Modo 04 RESTRIÇÂO usando CANNOT dando permissão
+        // if (auth()->user()->cannot('verProduto', $produto)) {
+        //     return view('site.detail', compact('produto'));
+        // } else {
+        //     return redirect()->route('login'); // Ou outra lógica de redirecionamento
+        // }
+        
+        // Modo 05 RESTRIÇÂO usando Gate dando permissão com ALLOWS
+        // if(Gate::allows('ver-produto', $produto)) {
+        //     return view('site.details', compact('produto'));
+        // }
+
+        // Modo 06 RESTRIÇÂO usando Gate negando permissão com DENIES e redirecionando rota
+        // if(Gate::denies('ver-produto', $produto)) {
+        //     return redirect()->route('site.index');
+        // }
+
+
+        // return view('site.details', compact('produto'));
     }   
     
     public function category($id)
