@@ -28,11 +28,11 @@ class SiteController extends Controller
         // $this->authorize('verProduto', $produto);
 
         // Modo 03 RESTRIÇÂO usando CAN dando permissão
-        if (auth()->user()->can('verProduto', $produto)) {
-            return view('site.details', compact('produto'));
-        } else {
-            return redirect()->route('site.index'); // Ou outra lógica de redirecionamento
-        }
+        // if (auth()->user()->can('verProduto', $produto)) {
+        //     return view('site.details', compact('produto'));
+        // } else {
+        //     return redirect()->route('site.index'); // Ou outra lógica de redirecionamento
+        // }
 
         // Modo 04 RESTRIÇÂO usando CANNOT dando permissão
         // if (auth()->user()->cannot('verProduto', $produto)) {
@@ -51,8 +51,7 @@ class SiteController extends Controller
         //     return redirect()->route('site.index');
         // }
 
-
-        // return view('site.details', compact('produto'));
+        return view('site.details', compact('produto'));
     }   
     
     public function category($id)

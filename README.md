@@ -383,12 +383,21 @@ Lista de Aulas
         }
         return view('site.details', compact('produto'));
 
+## 71 - Dashboard com Materialize CSS e ChartJS (CONCLUIDO)
+
+    Material da aula o mesmo esta arquivado dentro do projeto na pasta "/resources/assets"
+    https://drive.google.com/file/d/1VZQD9MBPiS_j7H9A1jQPQ68F9WOPFJvY/view?usp=sharing
 
 
 
 
 
-## 71 - ()
+
+
+
+
+
+
 ## 72 - ()
 ## 73 - ()
 ## 74 - ()
@@ -399,15 +408,6 @@ Lista de Aulas
 ## 79 - ()
 
 ## 80 - ()
-
-    
-
-
-
-
-
-
-
 
 ## Lista todos comandos artisan
 $ php artisan
