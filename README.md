@@ -6,13 +6,9 @@
 Lista de Aulas
 
 ## 01 - Introdução e Ambiente PHP (CONCLUIDO)
-
 ## 02 - Sobre o Laragon (CONCLUIDO)
-
 ## 03 - Instalando o PHP8 no Laragon (CONCLUIDO)
-
 ## 04 - Instalação, Composer e Virtual Host (Laragon) (CONCLUIDO)
-
 ## 05 - Estrutura de Pastas (CONCLUIDO)
 
     Configurações Iniciais importantes
@@ -32,7 +28,6 @@ Lista de Aulas
     MODEL - VIEW - CONTROLLER
 
 ## 08 - Introdução as Rotas (CONCLUIDO)
-
 ## 09 - Rotas Any e Match (CONCLUIDO)
 
     Route::get('/company', function() {
@@ -51,20 +46,14 @@ Lista de Aulas
     });
 
 ## 10 - Passagem de Parâmetros (CONCLUIDO)
-
 ## 11 - Redirect e View (CONCLUIDO)
-
 ## 12 - Rotas nomeadas (CONCLUIDO)
-
 ## 13 - Grupo de Rotas (CONCLUIDO)
-
 ## 14 - Controllers (CONCLUIDO)
 
     $ php artisan make:controller ProdutoController
 
 ## 15 - Passando Parâmetros Para o Controller (CONCLUIDO)
-
-
 ## 16 - Resource (CONCLUIDO)
 
     $ php artisan make:controller ProdutoController --resource
@@ -84,7 +73,6 @@ Lista de Aulas
     $ php artisan route:clear
 
 ## 18 - Configurando o Banco de Dados (CONCLUIDO)
-
 ## 19 - Entendendo os Migrations (CONCLUIDO)
 
     <!-- Executa os migrates que existem na pasta de migraations -->
@@ -176,25 +164,15 @@ Lista de Aulas
     $ php artisan make:teste -mfscr
 
 ## 29 - Factory Produtos e StrSlug (CONCLUIDO)
-
 ## 30 - Relacionamentos (CONCLUIDO)
-
 ## 31 - Introdução as views (CONCLUIDO)
-
 ## 32 - Section, Yield e Extends (CONCLUIDO)
-
 ## 33 - Laravel Snippers (CONCLUIDO)
-
 ## 34 - Comentários e Operador Ternário (CONCLUIDO)
-
 ## 35 - Customizando views de erro (CONCLUIDO)
-
 ## 36 - Estruturas de controle (CONCLUIDO)
-
 ## 37 - Estruturas de repetição (CONCLUIDO)
-
 ## 38 - Include e Component (CONCLUIDO)
-
 ## 39 - Stacks e Push (CONCLUIDO)
 
     Materialize https://materializecss.com/
@@ -223,7 +201,6 @@ Lista de Aulas
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 ## 42 - Listagem de produtos na home (CONCLUIDO)
-
 ## 43 - Paginação de Resultados (CONCLUIDO)
 
     OBS: Professor não disponibilizou o codigo utilizado na paginação
@@ -249,9 +226,7 @@ Lista de Aulas
     Route::get('/', [SiteController::class, 'index'])->name('site.index');
 
 ## 45 - Listagem de único produto (CONCLUIDO)
- 
 ## 46 - OneToMany Inverse / belongsTo (CONCLUIDO)
-    
 ## 47 - Categorias dinâmicas com viewShare (CONCLUIDO)
 
     OBS: Script correto, no site esta faltando declarar a variavel "options"
@@ -279,10 +254,9 @@ Lista de Aulas
     </script>
    
 ## 48 - Listar produtos de uma categoria (CONCLUIDO)
-    
 ## 49 - Mostrar nome da categoria e preço numberFormat (CONCLUIDO)
-    
 ## 50 - Carrinho de compras com darryldecode/cart (CONCLUIDO)
+
     https://github.com/darryldecode/laravelshoppingcart
 
     INSTALLATION
@@ -299,33 +273,24 @@ Lista de Aulas
             php artisan vendor:publish --provider="Darryldecode\Cart\CartServiceProvider" --tag="config"
 
 ## 51 - Adicionando itens no carrinho (CONCLUIDO)
-
 ## 52 - Estilizando carrinho e exibindo itens (CONCLUIDO)
-
 ## 53 - RedirectWith (CONCLUIDO)
-
 ## 54 - Removendo itens do carrinho (CONCLUIDO)
-
 ## 55 - Atualizando itens do carrinho (CONCLUIDO)
-
 ## 56 - Limpando carrinho (CONCLUIDO)
-
 ## 57 - Ajustes finais no carrinho de compras (CONCLUIDO)
-
 ## 58 - Autenticação simples ()
 
     $ php artisan make:controller LoginController
 
 ## 59 - Validações (CONCLUIDO)
+
     OBS: Nesta aula foi necessario excluir o usuario e executar o seeder novamente
     $ php artisan db:seed
 
 ## 60 - Redirecionando para o dashboard (CONCLUIDO)
-
 ## 61 - Exibindo dados do usuário logado (CONCLUIDO)
-
 ## 62 - Logout (CONCLUIDO)
-
 ## 63 - Middlewares (CONCLUIDO)
 
     Filtro de requisição HTTP
@@ -336,18 +301,14 @@ Lista de Aulas
     $ php artisan make:middleware CheckEmail
 
 ## 65 - Register (CONCLUIDO)
-
 ## 66 - Remember (CONCLUIDO)
-
 ## 67 - Autorização com Gates (CONCLUIDO)
-
 ## 68 - Autorização com Policies (CONCLUIDO)
 
     Criando policy
     $ php artisan make:policy ProdutoPolicy
 
 ## 69 - Restringindo recurso na view com Can e Cannot (CONCLUIDO)
-
 ## 70 - Restrigindo acesso com Allows e Denies, Can e Cannot (CONCLUIDO)
 
     <!-- Metodos só funciona se estiver configurado corretamente em providers and policy -->
@@ -399,22 +360,24 @@ Lista de Aulas
     https://www.youtube.com/redirect?event=comments&redir_token=QUFFLUhqbEZOaDBTY0hBNUNsTE9DUkxEb2JmNzg4aWhZQXxBQ3Jtc0ttbElVSkp2TlpJODREamh1dWN5WmdUdS1EcFhhclktQXZVWVNQSGtCV1hweGctb3B0dllXZ1Zkdkt0dzFBZlExd3Z0Y3N3b1VpUm13QXpINU83Y28zanRpNEN0VmdxS0UyNjZaTzdYYmdUZ0FZM3ZsVQ&q=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1VZQD9MBPiS_j7H9A1jQPQ68F9WOPFJvY%2Fview%3Fusp%3Dsharing
 
 ## 74 - Página de produtos (CONCLUIDO)
-
 ## 75 - Listagem de produtos (CONCLUIDO)
-
 ## 76 - Paginação de produtos (CONCLUIDO)
-
-
-
-
-
-
-
-## 77 - ()
+## 77 - Modal para criação e exclusão de produto (CONCLUIDO)
 ## 78 - ()
 ## 79 - ()
-
 ## 80 - ()
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Lista todos comandos artisan
 $ php artisan
