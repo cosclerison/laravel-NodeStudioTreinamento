@@ -8,7 +8,7 @@
     </br>
 
     <div class="col s12 m6">
-        <img src="{{ $produto->image }}" alt="Imagem" class="responsive-img"> 
+        <img src="{{ url("storage/{$produto->image}") }}" alt="Imagem" class="responsive-img"> 
     </div>
 
     <div class="col s12 m6">

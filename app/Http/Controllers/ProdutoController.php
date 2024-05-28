@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Category;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 // Podemos utilizar o seu nome natural ou seja original ou utilizar um alias para modifica-lo
 use \App\Models\Produto as Product;
@@ -86,7 +87,18 @@ class ProdutoController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $produto = $request->all();
+
+        if($request->image) {
+            $produto['image'] = $request->image->store('produtos');
+        }
+
+        $produto['slug'] = Str::slug($request->name);
+
+        $produto = Product::create($produto);
+
+        return redirect()->route('admin.products')->with('sucesso', "Produto cadastrado com sucesso!");
+
     }
 
     /**

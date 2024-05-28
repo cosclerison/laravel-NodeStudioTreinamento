@@ -3,16 +3,18 @@
    <div id="create" class="modal">
     <div class="modal-content">
       <h4><i class="material-icons">playlist_add_circle</i> Novo produto</h4>
-      <form action="" class="col s12" method="POST" enctype="multipart/form-data">
+      <form action="{{ route('admin.product.store') }}" class="col s12" method="POST" enctype="multipart/form-data">
+        @csrf
+        <input type="hidden" name="id_user" value="{{ auth()->user()->id }}">
         <div class="row">
           <div class="input-field col s6">
             <input 
-              id="first_name" 
-              name="first_name" 
+              id="name" 
+              name="name" 
               type="text" 
               class="validate"
               placeholder="Nome do Produto">
-            <label for="first_name">Nome do Produto</label>
+            <label for="name">Nome do Produto</label>
           </div>
           <div class="input-field col s6">
             <input 
@@ -34,7 +36,7 @@
           </div>
 
           <div class="input-field col s12">
-            <select name="categoria">
+            <select name="id_category">
               <option value="" disabled selected>Selecione...</option>
               
               @foreach($categoryes as $category)
@@ -57,8 +59,8 @@
           </div>
         </div>
        
-        <a href="#!" class="modal-close waves-effect waves-green btn blue right">Cadastrar</a>
-        <button type="submit" class="waves-effect waves-green btn green right">Cadastrar</button><br>
+        <button type="submit" class="waves-effect waves-green btn green right">Cadastrar</button>
+        <a href="#!" class="modal-close waves-effect waves-green btn blue right">Cancelar</a></br>
     </div>
     
   </form>

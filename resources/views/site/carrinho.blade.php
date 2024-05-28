@@ -62,7 +62,7 @@
           <tr>
             <td>
               <img 
-                src="{{ $item->attributes->image }}" 
+                src="{{ url("storage/{$item->attributes->image}") }}" 
                 class="responsive-img circle" 
                 width="70" 
                 alt="image">

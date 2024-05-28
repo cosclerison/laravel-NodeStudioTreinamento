@@ -365,21 +365,17 @@ Lista de Aulas
 ## 77 - Modal para criação e exclusão de produto (CONCLUIDO)
 ## 78 - Mensagem de retorno (CONCLUIDO)
 ## 79 - Modal de cadastro (CONCLUIDO)
-## 80 - ()
+## 80 - Cadastro com upload de imagem (CONLUIDO)
+
+    Criando link para storage na pasta APP
+    $ php artisan storage:link
+
+## Finalizado 80 aulas completas, existem varias opções para aplicar melhorias no projeto
 
 
 
 
-
-
-
-
-
-
-
-
-
-## Lista todos comandos artisan
+# Lista todos comandos artisan
 $ php artisan
 Laravel Framework 8.83.27
 

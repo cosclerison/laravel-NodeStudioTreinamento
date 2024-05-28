@@ -11,7 +11,8 @@
         <div class="col s12 m4">
             <div class="card">
                 <div class="card-image">
-                    <img src="{{ $produto->image }}">
+                    <img src="{{ url("storage/{$produto->image}") }}">
+                    {{-- <img src="{{ $produto->image }}"> --}}
 
                     {{-- Modo 01 de fazer esta validação para apresentar o conteudo --}}
                     {{-- @can('verProduto', $produto)

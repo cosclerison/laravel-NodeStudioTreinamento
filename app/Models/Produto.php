@@ -9,6 +9,21 @@ class Produto extends Model
 {
     use HasFactory;
 
+      /**
+     * The attributes that are mass assignable.
+     *
+     * @var array<int, string>
+     */
+    protected $fillable = [
+        'name',
+        'price',
+        'description',
+        'slug',
+        'image',
+        'id_category',
+        'id_user',
+    ];
+
     // atribuindo o nome da tabela caso o ORM não encontre o mapeamento da mesma
     protected $table = 'produtos';
 

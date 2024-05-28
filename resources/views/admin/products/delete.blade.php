@@ -7,13 +7,13 @@
             <p>Tem certeza que deseja excluir <strong>{{ $produto->name }}</strong> ?</p>
         </div> 
 
-        <a href="#!" class="modal-close waves-effect waves-green btn blue right">Cancelar</a>
         
-        <form action="{{ route('admin.delete', $produto->id) }}" method="post" enctype="multipart/form-data">
+        <form action="{{ route('admin.product.delete', $produto->id) }}" method="post" enctype="multipart/form-data">
             @method('DELETE')
             @csrf
-            <button type="submit" class="modal-close waves-effect waves-green btn red right">Excluir</button><br>
+            <button type="submit" class="modal-close waves-effect waves-green btn red right">Excluir</button>
         </form>
+        <a href="#!" class="modal-close waves-effect waves-green btn blue right">Cancelar</a></br>:
 
     </div>
 </div>
